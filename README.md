@@ -15,6 +15,10 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-5EA2FF?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-rdy626/)
 [![Email](https://img.shields.io/badge/Email-3DDAD7?style=flat-square&logo=gmail&logoColor=white)](mailto:harshabobbiti626@gmail.com)
 
+<br/>
+
+<sub>[About](#-about) · [Builds](#-flagship-builds) · [Stack](#-toolbox) · [Metrics](#-github) · [Art](#-contribution-art) · [Connect](#-connect)</sub>
+
 </div>
 
 ---
@@ -29,11 +33,37 @@ now: >-
   engineering the Agentic AI prompt-pipeline —
   how prompts are evaluated, versioned & optimized
 before: UI Developer @ Bhrish Labs (Nestlé partner) — React + TypeScript
-edu: B.Tech CSBS @ SRM Institute — 9.2 GPA
-certs: [ Meta Front-End Developer, Spring Microservices 5-in-1, CKAD — KodeKloud ]
 ```
 
 > ⚡ *Started in frontend — so I build the APIs the frontend always wished existed.*
+
+<div align="center">
+  <img src="./assets/iso-stack.svg" width="62%" alt="Floating 3D components — API, data and cloud layers" />
+  <br/>
+  <i><sub>systems, layered — the stack I ship behind, rendered as floating components</sub></i>
+</div>
+
+<details>
+<summary><b>📜 Education & Certifications</b></summary>
+<br/>
+
+- 🎓 **B.Tech — Computer Science & Business Systems** · SRM Institute of Science & Technology · `9.2 GPA`
+- 🧪 **Meta Front-End Developer** — Professional Certificate, Coursera
+- 🌀 **Java Spring Boot Microservices 5-in-1** — Boot · Cloud · Docker · K8s, Udemy
+- ☸️ **Kubernetes Application Developer (CKAD path)** — KodeKloud
+
+</details>
+
+<details>
+<summary><b>🧠 How this page renders its art</b></summary>
+<br/>
+
+GitHub strips JavaScript — so everything visual here is a live component instead: the
+**3D contribution skyline** and the **snake** are rebuilt nightly by GitHub Actions,
+stats stream in from render APIs, and the floating cubes above are a hand-authored
+animated SVG. Nothing here is a screenshot.
+
+</details>
 
 ---
 
@@ -101,6 +131,20 @@ Multithreaded ingestion engine parsing server performance metrics via the Stream
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Harshabobbiti626/Harshabobbiti626/output/github-contribution-grid-snake-light.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/Harshabobbiti626/Harshabobbiti626/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
+
+</div>
+
+---
+
+## ✦ Connect
+
+<div align="center">
+
+**Open to backend & platform engineering roles — my inbox is always open.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-5EA2FF?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-rdy626/)
+[![Email](https://img.shields.io/badge/Email-3DDAD7?style=flat-square&logo=gmail&logoColor=white)](mailto:harshabobbiti626@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-8A7CFF?style=flat-square&logo=vercel&logoColor=white)](https://portofolio-iota-drab-61.vercel.app/)
 
 </div>
 

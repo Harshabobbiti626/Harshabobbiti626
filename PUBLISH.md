@@ -8,6 +8,7 @@ A repo named exactly after your username renders `README.md` on your GitHub prof
 | File | Purpose |
 |---|---|
 | `README.md` | The profile itself — hero art, about, projects, stack, live stats |
+| `assets/iso-stack.svg` | Hand-authored animated 3D component (floating cubes) |
 | `.github/workflows/snake.yml` | Nightly **snake animation** over your contribution graph → publishes SVGs to the `output` branch |
 | `.github/workflows/3d-contrib.yml` | Nightly **3D contribution graph** → commits SVGs to `profile-3d-contrib/` on `main` |
 
