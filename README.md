@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img width="100%" alt="Harshavardhan" src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:8A7CFF,50:5EA2FF,100:3DDAD7&text=HARSHAVARDHAN&desc=SOFTWARE%20ENGINEER%20%C2%B7%20JAVA%20MICROSERVICES%20%C2%B7%20CLOUD%20%C2%B7%20AI%20SYSTEMS&descSize=13.5&descAlignY=72&fontSize=42&fontColor=E6EDF3&animation=twinkling" />
+<img width="100%" alt="Harshavardhan Reddy" src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:8A7CFF,50:5EA2FF,100:3DDAD7&text=HARSHAVARDHAN&desc=SOFTWARE%20ENGINEER%20%C2%B7%20JAVA%20MICROSERVICES%20%C2%B7%20CLOUD%20%C2%B7%20AI%20SYSTEMS&descSize=13.5&descAlignY=72&fontSize=42&fontColor=E6EDF3&animation=twinkling" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2700&pause=1100&color=3DDAD7&center=true&vCenter=true&width=620&height=46&lines=%3E+press+start+...+player+found%3A+harshavardhan;%3E+class%3A+backend+engineer+%C2%B7+guild%3A+capgemini;%3E+side+quest%3A+building+the+kairvex+ecosystem;%3E+status%3A+ONLINE+%C2%B7+bengaluru+server" alt="Typing SVG" />
 
