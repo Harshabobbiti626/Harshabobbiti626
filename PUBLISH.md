@@ -8,10 +8,11 @@ history has been merged locally — pushing is a clean fast-forward.
 
 | File | Purpose |
 |---|---|
-| `README.md` | The profile — 3D hero, Kairvex ecosystem, stack, live stats, contribution art |
+| `README.md` | The profile — 3D hero, Kairvex ecosystem, stack, live stats, cozy artifacts |
 | `assets/iso-stack.svg` | Hand-authored animated 3D component (floating cubes) |
+| `assets/desk.svg` | Cozy artifact — typing code, steaming coffee, sleeping cat |
+| `assets/orbit.svg` | Cozy artifact — waving astronaut, planet, orbiting cube |
 | `assets/kairvex-banner.jpg` | Your Kairvex banner (moved from repo root) |
-| `.github/workflows/snake.yml` | Nightly **snake animation** → publishes SVGs to the `output` branch |
 | `.github/workflows/3d-contrib.yml` | Nightly **3D contribution graph** → commits SVGs to `profile-3d-contrib/` on `main` |
 
 ## Steps (≈ 2 minutes)
@@ -27,17 +28,17 @@ A GitHub sign-in window appears once (no cached credentials on this machine).
 If the push is ever rejected, `git push --force-with-lease origin main` is safe here —
 nothing is lost: your banner is preserved in `assets/` and your draft content is merged.
 
-**2. Let Actions write to the repo** *(required — the art generators commit files)*
+**2. Let Actions write to the repo** *(required — the art generator commits files)*
 Repo → **Settings → Actions → General → Workflow permissions** →
 **“Read and write permissions”** → Save.
 
-**3. Generate the art once**
-Repo → **Actions** → run **“Contribution Snake”** and **“3D Contribution Graph”**
-via **Run workflow**. They re-run automatically every night.
+**3. Generate the skyline once**
+Repo → **Actions** → run **“3D Contribution Graph”** via **Run workflow**.
+It re-runs automatically every night.
 
 **4. Done** — refresh `github.com/Harshabobbiti626`.
-Hero, banner, stack, stats render instantly; snake + 3D skyline appear ~1 minute
-after their workflows finish.
+Hero, banner, artifacts and stats render instantly; the 3D skyline appears ~1 minute
+after the workflow finishes.
 
 ## Notes
 
@@ -51,6 +52,6 @@ after their workflows finish.
 
 ## Troubleshooting
 
-- **Snake image missing** → check the Actions run; SVGs live on the `output` branch, referenced directly by the README.
-- **3D graph missing** → confirm workflow permissions (step 2); files are committed to `main` under `profile-3d-contrib/`.
+- **3D skyline missing** → confirm workflow permissions (step 2); files are committed to `main` under `profile-3d-contrib/`.
 - **Banner not showing** → ensure `assets/kairvex-banner.jpg` was pushed (it's part of this repo).
+- **Animations not playing** → they run in all modern browsers; if you view the raw file in an editor they appear static.

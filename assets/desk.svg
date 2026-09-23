@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" fill="none">
+  <style>
+    @keyframes blink   { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    @keyframes steamUp { 0% { transform: translateY(6px); opacity: 0; } 30% { opacity: .55; } 100% { transform: translateY(-16px); opacity: 0; } }
+    @keyframes twinkle { 0%,100% { opacity: .12; } 50% { opacity: .75; } }
+    @keyframes puffA   { 0%,100% { opacity: .12; } 50% { opacity: .55; } }
+    .cursor { animation: blink 1.1s infinite; }
+    .steam1 { animation: steamUp 3s ease-out infinite; }
+    .steam2 { animation: steamUp 3s ease-out infinite; animation-delay: 1.5s; }
+    .star   { animation: twinkle 3s ease-in-out infinite; }
+  </style>
+
+  <defs>
+    <linearGradient id="deskG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3A4265"/><stop offset="1" stop-color="#262C44"/>
+    </linearGradient>
+    <linearGradient id="catG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CDC6FF"/><stop offset="1" stop-color="#A79BFF"/>
+    </linearGradient>
+    <linearGradient id="mugG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3DDAD7"/><stop offset="1" stop-color="#2AA8A5"/>
+    </linearGradient>
+    <radialGradient id="glowW" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8A7CFF" stop-opacity="0.28"/><stop offset="1" stop-color="#8A7CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5EA2FF" stop-opacity="0.4"/><stop offset="1" stop-color="#5EA2FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ambience -->
+  <ellipse cx="450" cy="330" rx="340" ry="46" fill="url(#glowW)"/>
+  <ellipse cx="450" cy="378" rx="300" ry="14" fill="#8A7CFF" opacity="0.12"/>
+  <circle class="star" cx="130" cy="80"  r="2.5" fill="#8A7CFF"/>
+  <circle class="star" cx="790" cy="60"  r="2"   fill="#5EA2FF" style="animation-delay:-1.2s"/>
+  <circle class="star" cx="840" cy="150" r="2.5" fill="#3DDAD7" style="animation-delay:-2s"/>
+  <circle class="star" cx="70"  cy="180" r="2"   fill="#5EA2FF" style="animation-delay:-.7s"/>
+  <circle class="star" cx="600" cy="40"  r="2"   fill="#8A7CFF" style="animation-delay:-2.6s"/>
+  <path class="star" d="M270,45 l1.8,4.2 4.2,1.8 -4.2,1.8 -1.8,4.2 -1.8,-4.2 -4.2,-1.8 4.2,-1.8 Z" fill="#8A7CFF"/>
+  <path class="star" d="M700,110 l1.8,4.2 4.2,1.8 -4.2,1.8 -1.8,4.2 -1.8,-4.2 -4.2,-1.8 4.2,-1.8 Z" fill="#3DDAD7" style="animation-delay:-1.8s"/>
+
+  <!-- monitor glow -->
+  <ellipse cx="450" cy="175" rx="160" ry="95" fill="url(#glowB)" opacity="0.45"/>
+
+  <!-- desk -->
+  <rect x="120" y="288" width="660" height="26" rx="13" fill="url(#deskG)"/>
+  <rect x="165" y="314" width="18" height="56" rx="8" fill="#1E2436"/>
+  <rect x="717" y="314" width="18" height="56" rx="8" fill="#1E2436"/>
+
+  <!-- monitor -->
+  <rect x="330" y="92" width="240" height="152" rx="14" fill="#2B3248" stroke="#414A6B" stroke-width="2"/>
+  <circle cx="354" cy="98" r="3" fill="#8A7CFF"/>
+  <circle cx="366" cy="98" r="3" fill="#5EA2FF"/>
+  <circle cx="378" cy="98" r="3" fill="#3DDAD7"/>
+  <rect x="342" y="104" width="216" height="128" rx="8" fill="#0B0E17"/>
+  <rect x="356" y="122" width="92"  height="9" rx="4.5" fill="#8A7CFF">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="6s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="356" y="140" width="136" height="9" rx="4.5" fill="#5EA2FF">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="6s" begin=".7s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="356" y="158" width="74"  height="9" rx="4.5" fill="#3DDAD7">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="6s" begin="1.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="356" y="176" width="112" height="9" rx="4.5" fill="#5EA2FF">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="6s" begin="2.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect class="cursor" x="478" y="176" width="7" height="9" fill="#E6EDF3"/>
+  <polygon points="432,244 468,244 478,268 422,268" fill="#262C44"/>
+  <rect x="388" y="268" width="124" height="12" rx="6" fill="#2B3248"/>
+
+  <!-- coffee -->
+  <path class="steam1" d="M640,232 c-5,-8 5,-14 0,-22 c-5,-8 5,-14 0,-20" stroke="#C9D1D9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path class="steam2" d="M654,232 c-5,-8 5,-14 0,-22 c-5,-8 5,-14 0,-20" stroke="#C9D1D9" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M664,254 a11,11 0 1,1 0,22" stroke="#3DDAD7" stroke-width="5" fill="none"/>
+  <rect x="628" y="242" width="36" height="46" rx="9" fill="url(#mugG)"/>
+  <rect x="628" y="242" width="36" height="8" rx="4" fill="#7FE7E4" opacity="0.9"/>
+
+  <!-- sleeping cat -->
+  <path d="M300,282 q26,4 30,-14 q3,-12 -8,-14" stroke="#B9B1FF" stroke-width="10" fill="none" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" values="-4 300 282; 7 300 282; -4 300 282" dur="4.6s" repeatCount="indefinite"/>
+  </path>
+  <ellipse cx="255" cy="278" rx="50" ry="23" fill="url(#catG)"/>
+  <ellipse cx="255" cy="272" rx="50" ry="21" fill="#DAD5FF" opacity="0.35">
+    <animate attributeName="ry" values="19;23;19" dur="3.6s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="212" cy="266" r="19" fill="#B9B1FF"/>
+  <polygon points="198,254 204,240 212,252" fill="#B9B1FF"/>
+  <polygon points="218,250 228,238 232,252" fill="#B9B1FF"/>
+  <polygon points="201,252 204,244 209,251" fill="#8A7CFF" opacity="0.6"/>
+  <polygon points="220,249 226,242 228,250" fill="#8A7CFF" opacity="0.6"/>
+  <path d="M202,268 q4,3.5 8,0" stroke="#3A3358" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M216,266 q4,3.5 8,0" stroke="#3A3358" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="196" y="230" font-family="'Segoe UI', sans-serif" font-size="12" font-style="italic" fill="#8A7CFF" opacity="0">
+    z<animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.25;.7;1" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="236;222" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+  </text>
+  <text x="184" y="214" font-family="'Segoe UI', sans-serif" font-size="15" font-style="italic" fill="#8A7CFF" opacity="0">
+    z<animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.25;.7;1" dur="3.6s" begin=".9s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="220;206" dur="3.6s" begin=".9s" repeatCount="indefinite"/>
+  </text>
+  <text x="172" y="196" font-family="'Segoe UI', sans-serif" font-size="18" font-style="italic" fill="#8A7CFF" opacity="0">
+    Z<animate attributeName="opacity" values="0;.9;.9;0" keyTimes="0;.25;.7;1" dur="3.6s" begin="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="202;188" dur="3.6s" begin="1.8s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- plant -->
+  <g transform="translate(742,238)">
+    <g>
+      <animateTransform attributeName="transform" type="skewX" values="0;-6;0;4;0" dur="6.5s" repeatCount="indefinite"/>
+      <path d="M0,26 C-2,6 -14,-2 -22,-10" stroke="#3DDAD7" stroke-width="4" fill="none"/>
+      <ellipse cx="-24" cy="-14" rx="6" ry="10" fill="#3DDAD7" transform="rotate(-35 -24 -14)"/>
+      <path d="M0,26 C2,4 12,-4 22,-12" stroke="#35C9C6" stroke-width="4" fill="none"/>
+      <ellipse cx="24" cy="-16" rx="6" ry="10" fill="#35C9C6" transform="rotate(35 24 -16)"/>
+      <path d="M0,26 C0,8 0,-6 0,-16" stroke="#3DDAD7" stroke-width="4" fill="none"/>
+      <ellipse cx="0" cy="-24" rx="6" ry="11" fill="#3DDAD7"/>
+    </g>
+    <polygon points="-16,28 16,28 12,50 -12,50" fill="#5EA2FF"/>
+    <rect x="-18" y="22" width="36" height="9" rx="4" fill="#7FB4FF"/>
+  </g>
+</svg>

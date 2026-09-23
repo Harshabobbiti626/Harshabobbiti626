@@ -1,6 +1,6 @@
 <!-- ⋆˙⟡ thanks for peeking under the hood —
-     this profile is a living canvas: the 3D graph & snake below are
-     generated nightly by GitHub Actions, nothing here is hand-drawn.
+     the 3D skyline is rebuilt nightly by GitHub Actions;
+     the floating cubes, the desk-cat and the astronaut are hand-drawn animated SVGs.
 -->
 
 <div align="center">
@@ -17,7 +17,7 @@
 
 <br/>
 
-<sub>[About](#-about) · [Kairvex](#-the-kairvex-ecosystem) · [Stack](#-toolbox) · [Metrics](#-github) · [Art](#-contribution-art) · [Connect](#-connect)</sub>
+<sub>[About](#-about) · [Kairvex](#-the-kairvex-ecosystem) · [Stack](#-toolbox) · [Metrics](#-github) · [Cozy](#-the-cozy-corner) · [Art](#-contribution-art) · [Connect](#-connect)</sub>
 
 </div>
 
@@ -73,9 +73,9 @@ before: UI Developer @ Bhrish Labs (Nestlé partner) — React + TypeScript
 <br/>
 
 GitHub strips JavaScript — so everything visual here is a live component instead: the
-**3D contribution skyline** and the **snake** are rebuilt nightly by GitHub Actions,
-stats stream in from render APIs, and the floating cubes above are a hand-authored
-animated SVG. Nothing here is a screenshot.
+**3D contribution skyline** is rebuilt nightly by GitHub Actions, stats stream in from
+render APIs, and the floating cubes, the dozing desk-cat and the waving astronaut are
+hand-authored animated SVGs. Nothing here is a screenshot.
 
 </details>
 
@@ -169,24 +169,48 @@ animated SVG. Nothing here is a screenshot.
 
 ---
 
+## ✦ The Cozy Corner
+
+<div align="center">
+
+<i><sub>artifacts with a heartbeat — click to open them</sub></i>
+
+<details>
+<summary><b>☕ the dev desk</b> — <i>someone fell asleep on the job again</i></summary>
+<br/>
+
+<img src="./assets/desk.svg" width="74%" alt="Animated dev desk — code typing itself, steaming coffee, a sleeping cat" />
+
+<br/>
+<i><sub>compiling… the cat is supervising. coffee refills after this build.</sub></i>
+
+</details>
+
+<details>
+<summary><b>🛸 the night orbit</b> — <i>the cube laps the planet every 14s — say hi to the astronaut</i></summary>
+<br/>
+
+<img src="./assets/orbit.svg" width="74%" alt="Waving astronaut beside a cratered planet with an orbiting cube" />
+
+<br/>
+<i><sub>shipping to production takes a little space.</sub></i>
+
+</details>
+
+</div>
+
+---
+
 ## ✦ Contribution Art
 
 <div align="center">
 
-<i><sub>regenerated nightly by GitHub Actions — nothing here is hand-drawn</sub></i>
+<i><sub>your contributions, rendered as a 3D skyline — rebuilt nightly by GitHub Actions</sub></i>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
   <img alt="3D contribution graph" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
-</picture>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Harshabobbiti626/Harshabobbiti626/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Harshabobbiti626/Harshabobbiti626/output/github-contribution-grid-snake-light.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Harshabobbiti626/Harshabobbiti626/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
 </div>
