@@ -51,7 +51,6 @@ My engineering approach is rooted in structural precision: **Plan ➔ Build ➔ 
 ### 📊 Professional Milestones & Verified Competencies
 *   **Software Engineer at Capgemini**: Engineered multi-threaded processing modules for an internal **Agentic Gallery platform**, optimizing prompt evaluation loops, implementing strict JUnit/Mockito coverage runs, and maintaining SonarQube build gates.
 *   **UI Developer at Bhrish Labs**: Redesigned legacy frontend layout schemas for an enterprise **HR Requisition Platform** using modular React components and atomic design patterns, reducing redundant code footprint by 30%.
-*   **Certified Kubernetes Application Developer (CKAD)**: Formally validated in managing cloud workloads, cluster networking patterns, security parameters, and containerized scale properties.
 
 ---
 
