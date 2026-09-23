@@ -1,57 +1,56 @@
 # Publish your GitHub Profile Portfolio
 
-Everything in this folder is a ready-to-push package for your special **profile README repo**.
-A repo named exactly after your username renders `README.md` on your GitHub profile page.
+This folder is a ready-to-push package for your special **profile README repo**
+(`Harshabobbiti626/Harshabobbiti626`). The repo already exists and your remote
+history has been merged locally — pushing is a clean fast-forward.
 
 ## What's inside
 
 | File | Purpose |
 |---|---|
-| `README.md` | The profile itself — hero art, about, projects, stack, live stats |
+| `README.md` | The profile — 3D hero, Kairvex ecosystem, stack, live stats, contribution art |
 | `assets/iso-stack.svg` | Hand-authored animated 3D component (floating cubes) |
-| `.github/workflows/snake.yml` | Nightly **snake animation** over your contribution graph → publishes SVGs to the `output` branch |
+| `assets/kairvex-banner.jpg` | Your Kairvex banner (moved from repo root) |
+| `.github/workflows/snake.yml` | Nightly **snake animation** → publishes SVGs to the `output` branch |
 | `.github/workflows/3d-contrib.yml` | Nightly **3D contribution graph** → commits SVGs to `profile-3d-contrib/` on `main` |
 
-## Steps (≈ 3 minutes)
+## Steps (≈ 2 minutes)
 
-**1. Create the repo**
-Go to [github.com/new](https://github.com/new) → repository name must be exactly:
-
-```
-Harshabobbiti626
-```
-
-Set it **Public**, leave "Add a README" **unchecked**, create it.
-(GitHub shows a hint: *“Harshabobbiti626/Harshabobbiti626 is a special repository…”*)
-
-**2. Push this folder**
+**1. Push**
 
 ```bash
 cd path/to/github-profile
-git remote add origin https://github.com/Harshabobbiti626/Harshabobbiti626.git
-git push -u origin main
+git push origin main
 ```
 
-**3. Let Actions write to the repo** *(required — the art generators commit files)*
-Repo → **Settings → Actions → General → Workflow permissions** → select
+A GitHub sign-in window appears once (no cached credentials on this machine).
+If the push is ever rejected, `git push --force-with-lease origin main` is safe here —
+nothing is lost: your banner is preserved in `assets/` and your draft content is merged.
+
+**2. Let Actions write to the repo** *(required — the art generators commit files)*
+Repo → **Settings → Actions → General → Workflow permissions** →
 **“Read and write permissions”** → Save.
 
-**4. Generate the art once**
-Repo → **Actions** tab → run **“Contribution Snake”** and **“3D Contribution Graph”**
-manually via **Run workflow**. (They also re-run automatically every night.)
+**3. Generate the art once**
+Repo → **Actions** → run **“Contribution Snake”** and **“3D Contribution Graph”**
+via **Run workflow**. They re-run automatically every night.
 
-**5. Done** — refresh `github.com/Harshabobbiti626`.
-Stats cards, pins and hero render instantly; the snake + 3D graph appear ~1 minute
+**4. Done** — refresh `github.com/Harshabobbiti626`.
+Hero, banner, stack, stats render instantly; snake + 3D skyline appear ~1 minute
 after their workflows finish.
+
+## Notes
+
+- **kairvex-\* links** point to `github.com/Kairvex-Eco-System/<repo>` — they 404 until
+  those repos are created/published under the org. The links are already canonical, so
+  no README change is needed when the repos go live.
+- **Phone badge** is intentionally included per your draft — it is visible to everyone;
+  delete the Phone line in `✦ Connect` any time to remove it.
+- **Stats cards** use `github-profile-summary-cards` (the classic `github-readme-stats`
+  public instance was rate-limiting; this one is verified stable).
 
 ## Troubleshooting
 
-- **Snake image missing** → check the Actions run succeeded; the SVGs live on the `output` branch, which the README references directly.
-- **3D graph missing** → confirm workflow permissions (step 3); the files are committed to `main` under `profile-3d-contrib/`.
-- **Stats cards stuck on “loading”** → github-readme-stats' public instance occasionally rate-limits; they recover on next page load.
-
-## Optional polish
-
-- On your profile, click **Customize pins** and pin the 3 flagship repos so they appear above the README.
-- Add topics (`java`, `spring-boot`, `microservices`, `redis`, `kubernetes`…) to each repo for discoverability.
-- Keep the email badge only if you're comfortable with it being public — it's already on your resume, but it will be visible to everyone here.
+- **Snake image missing** → check the Actions run; SVGs live on the `output` branch, referenced directly by the README.
+- **3D graph missing** → confirm workflow permissions (step 2); files are committed to `main` under `profile-3d-contrib/`.
+- **Banner not showing** → ensure `assets/kairvex-banner.jpg` was pushed (it's part of this repo).

@@ -55,7 +55,7 @@ before: UI Developer @ Bhrish Labs (Nestlé partner) — React + TypeScript
 - 🎓 **B.Tech — Computer Science & Business Systems** · SRM Institute of Science & Technology · `9.2 GPA`
 - 🧪 **Meta Front-End Developer** — Professional Certificate, Coursera
 - 🌀 **Java Spring Boot Microservices 5-in-1** — Boot · Cloud · Docker · K8s, Udemy
-- ☸️ **Kubernetes Application Developer (CKAD path)** — KodeKloud
+- ☸️ **Kubernetes Application Developer (CKAD)** — KodeKloud
 
 </details>
 
