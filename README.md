@@ -2,8 +2,11 @@
 ## Software Engineer | Java Microservices | Cloud Infrastructure | AI Systems
 
 <p align="center">
-  <img src="image_9a0b2c4e.jpg" width="100%" alt="Kairvex Engineering Ecosystem Banner" />
+  <a href="https://github.com/Kairvex-Eco-System" target="_blank">
+    <img src="image_9a0b2c4e.jpg" width="100%" alt="Kairvex Engineering Ecosystem Banner" />
+  </a>
 </p>
+
 
 ### ⚡ Professional Persona & Technical Vision
 I am a **Full-Stack Software Engineer** specializing in the **Java and React ecosystems**, with 2+ years of professional experience building, scaling, and deploying enterprise-grade software. Currently working at **Capgemini**, I focus on building high-performance backend microservices, optimizing developer productivity platforms through agentic multi-agent systems, and implementing automated continuous integration pipelines.
