@@ -5,19 +5,19 @@
 
 <div align="center">
 
-<img width="100%" alt="Harshavardhan Reddy Bobbiti" src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:8A7CFF,50:5EA2FF,100:3DDAD7&text=Harshavardhan%20Reddy%20Bobbiti&desc=Backend%20Developer%20%C2%B7%20Java%20%C2%B7%20Spring%20Boot%20%C2%B7%20Microservices&descSize=15&descAlignY=72&fontSize=33&fontColor=E6EDF3&animation=twinkling" />
+<img width="100%" alt="Harshavardhan Reddy Bobbiti" src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:8A7CFF,50:5EA2FF,100:3DDAD7&text=Harshavardhan%20Reddy%20Bobbiti&desc=Software%20Engineer%20%C2%B7%20Java%20Microservices%20%C2%B7%20Cloud%20Infrastructure%20%C2%B7%20AI%20Systems&descSize=14&descAlignY=72&fontSize=33&fontColor=E6EDF3&animation=twinkling" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=8A7CFF&center=true&vCenter=true&width=640&height=50&lines=Backend+Developer+%40+Capgemini;Java+%C2%B7+Spring+Boot+%C2%B7+Microservices;Systems+that+stay+fast+under+pressure" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=8A7CFF&center=true&vCenter=true&width=640&height=50&lines=Software+Engineer+%40+Capgemini;Java+Microservices+%C2%B7+Cloud+Infrastructure+%C2%B7+AI+Systems;Building+the+Kairvex+engineering+ecosystem" alt="Typing SVG" /></a>
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-8A7CFF?style=flat-square&logo=vercel&logoColor=white)](https://portofolio-iota-drab-61.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-5EA2FF?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-rdy626/)
-[![Email](https://img.shields.io/badge/Email-3DDAD7?style=flat-square&logo=gmail&logoColor=white)](mailto:harshabobbiti626@gmail.com)
+[![Kairvex](https://img.shields.io/badge/Kairvex_Ecosystem-3DDAD7?style=flat-square&logo=github&logoColor=white)](https://github.com/Kairvex-Eco-System)
 
 <br/>
 
-<sub>[About](#-about) · [Builds](#-flagship-builds) · [Stack](#-toolbox) · [Metrics](#-github) · [Art](#-contribution-art) · [Connect](#-connect)</sub>
+<sub>[About](#-about) · [Kairvex](#-the-kairvex-ecosystem) · [Stack](#-toolbox) · [Metrics](#-github) · [Art](#-contribution-art) · [Connect](#-connect)</sub>
 
 </div>
 
@@ -27,13 +27,18 @@
 
 ```yaml
 name: Harshavardhan Reddy Bobbiti
-role: Backend Developer @ Capgemini — Nuuday Telecom
-stack: [ Java, Spring Boot, Microservices, Redis, PostgreSQL, Kubernetes ]
+role: Software Engineer @ Capgemini — Nuuday Telecom
+focus: [ Java Microservices, Cloud Infrastructure, AI Systems ]
+building: Kairvex — a production-grade, multi-repo engineering ecosystem
 now: >-
   engineering the Agentic AI prompt-pipeline —
-  how prompts are evaluated, versioned & optimized
+  evaluation, versioning & optimization at enterprise scale
 before: UI Developer @ Bhrish Labs (Nestlé partner) — React + TypeScript
 ```
+
+<div align="center">
+  <sub><code>plan → build → test → deploy → observe → modernize</code></sub>
+</div>
 
 > ⚡ *Started in frontend — so I build the APIs the frontend always wished existed.*
 
@@ -55,6 +60,15 @@ before: UI Developer @ Bhrish Labs (Nestlé partner) — React + TypeScript
 </details>
 
 <details>
+<summary><b>🧭 Professional Milestones</b></summary>
+<br/>
+
+- 🏢 **Capgemini** — multi-threaded processing modules for an internal **Agentic Gallery platform**: prompt-evaluation loops, strict JUnit/Mockito coverage, SonarQube build gates
+- 🖥️ **Bhrish Labs** — modernized the enterprise **HR Requisition Platform** (Nestlé partner) with modular React & atomic design — cut redundant code by **30%**
+
+</details>
+
+<details>
 <summary><b>🧠 How this page renders its art</b></summary>
 <br/>
 
@@ -67,19 +81,47 @@ animated SVG. Nothing here is a screenshot.
 
 ---
 
-## ✦ Flagship Builds
+## ✦ The Kairvex Ecosystem
 
-**🛡️ [Tech-Sovereignty-Graph](https://github.com/Harshabobbiti626/Tech-Sovereignty-Graph)**
-Enterprise-scale graph engine mapping identity access paths, nested group inheritance & Shadow-IT blast radius.
-`Spring Boot` `openCypher` `Graph DB` `React Flow` `Docker`
+<div align="center">
+  <a href="https://github.com/Kairvex-Eco-System">
+    <img src="./assets/kairvex-banner.jpg" width="100%" alt="Kairvex Engineering Ecosystem" />
+  </a>
+  <br/>
+  <i><sub>a modular blueprint of running software systems — not tutorial projects</sub></i>
+</div>
 
-**🔗 [Redis-Backed URL Shortener](https://github.com/Harshabobbiti626/Redis-Backed-URL-Shortener-Service)**
-High-throughput engine where a Redis caching layer completely offloads PostgreSQL under concurrent fire.
-`Spring Boot` `Redis` `PostgreSQL` `JWT` `Docker`
+#### ⚙️ Core Systems
 
-**📈 [Cloud-Native Metrics Pipeline](https://github.com/Harshabobbiti626/Cloud-Native-Metrics-Monitoring-Pipeline)**
-Multithreaded ingestion engine parsing server performance metrics via the Streams API, gated by SonarQube + Checkstyle.
-`Java 17` `Streams API` `SonarQube` `Docker`
+**◈ [kairvex-platform](https://github.com/Kairvex-Eco-System/kairvex-platform)** — engineering delivery & automation control center: UI modules, microservices, infra & multi-agent pipelines in one hub
+`Flagship` `Control Center`
+
+**◈ [kairvex-microservices](https://github.com/Kairvex-Eco-System/kairvex-microservices)** — distributed backend engine with DDD boundaries, Spring Cloud Gateway routing & transactional JWT token parsing
+`Java 17` `Spring Boot` `Spring Data JPA`
+
+**◈ [kairvex-agentic-systems](https://github.com/Kairvex-Eco-System/kairvex-agentic-systems)** — autonomous intelligence layer: multi-agent orchestration, static test generation & structural RCA loops
+`LangGraph` `CrewAI` `OpenAI Tool Calling`
+
+**◈ [kairvex-cloud](https://github.com/Kairvex-Eco-System/kairvex-cloud)** — infrastructure as code: private network layers, Azure Container Registry & AKS clusters
+`Terraform` `AKS` `ACR`
+
+**◈ [kairvex-delivery](https://github.com/Kairvex-Eco-System/kairvex-delivery)** — CI/CD engine: security scans, SonarQube & image-scan gates, blue-green + canary rollouts
+`Jenkins` `GitHub Actions` `SonarQube`
+
+**◈ [kairvex-frontend](https://github.com/Kairvex-Eco-System/kairvex-frontend)** — enterprise shell frontend: feature apps composed at atomic boundaries — no UI monolith
+`React` `TypeScript` `Module Federation`
+
+#### 🧬 Deep Domains
+
+**◈ [kairvex-data](https://github.com/Kairvex-Eco-System/kairvex-data)** — polyglot persistence: PostgreSQL · Redis · MongoDB · Neo4j blast-radius mapping
+
+**◈ [kairvex-event-systems](https://github.com/Kairvex-Eco-System/kairvex-event-systems)** — Kafka event loops, transactional Outbox publishing & idempotent consumers
+
+**◈ [kairvex-resilience](https://github.com/Kairvex-Eco-System/kairvex-resilience)** — chaos testbench: Resilience4j circuit breakers, bulkhead isolation & rate limiting under failure
+
+**◈ [kairvex-mlops](https://github.com/Kairvex-Eco-System/kairvex-mlops)** — ML lifecycle: release-risk prediction, model registries & drift-retraining jobs
+
+**◈ [kairvex-labs](https://github.com/Kairvex-Eco-System/kairvex-labs)** — isolated sandbox for rapid PoCs before production promotion
 
 ---
 
@@ -87,15 +129,30 @@ Multithreaded ingestion engine parsing server performance metrics via the Stream
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,nodejs,py,ts,react,postgres,mysql&perline=8" alt="engineering & data" />
+<img src="https://skillicons.dev/icons?i=java,spring,nodejs,py,ts,react,postgres,mysql,redis,mongodb,kafka&perline=11" alt="engineering & data" />
 <br/>
-<i><sub>engineering · data</sub></i>
+<i><sub>engineering · data · events</sub></i>
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=redis,docker,kubernetes,jenkins,aws,git,linux,postman&perline=8" alt="platform & delivery" />
+<img src="https://skillicons.dev/icons?i=terraform,azure,docker,kubernetes,jenkins,githubactions,aws,git,linux,postman,jest&perline=11" alt="cloud, platform & delivery" />
 <br/>
-<i><sub>platform · delivery</sub></i>
+<i><sub>cloud · platform · delivery</sub></i>
 
 </div>
+
+<details>
+<summary><b>🧰 Full stack breakdown</b></summary>
+<br/>
+
+| Layer | Technologies & Frameworks |
+| :--- | :--- |
+| **Backend & Core** | Core Java, Spring Boot, Spring Data JPA, Hibernate, Node.js (Express), Microservices, RESTful APIs |
+| **Frontend Architecture** | ReactJS, JavaScript, TypeScript, Webpack Module Federation, Context API, Redux Toolkit, React Hooks |
+| **Data & Caching** | PostgreSQL, MySQL, RDBMS Optimization & Indexing, Redis, pgvector, Neo4j, MongoDB |
+| **Cloud & DevOps** | Docker, Kubernetes (CKAD), Azure AKS, Terraform, Jenkins, Maven, GitHub Actions, AWS |
+| **Testing & Quality** | SonarQube Gates, JUnit 5, Mockito, Jest, Vitest, Playwright E2E, Selenium |
+| **AI & Automation** | LangGraph, CrewAI, OpenAI Tool Calling, Vector Embedding Pipelines, Azure AI Foundry |
+
+</details>
 
 ---
 
@@ -142,9 +199,12 @@ Multithreaded ingestion engine parsing server performance metrics via the Stream
 
 **Open to backend & platform engineering roles — my inbox is always open.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-5EA2FF?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-rdy626/)
 [![Email](https://img.shields.io/badge/Email-3DDAD7?style=flat-square&logo=gmail&logoColor=white)](mailto:harshabobbiti626@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-8A7CFF?style=flat-square&logo=vercel&logoColor=white)](https://portofolio-iota-drab-61.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-5EA2FF?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-rdy626/)
+[![Phone](https://img.shields.io/badge/%2B91_8309681995-8A7CFF?style=flat-square)](tel:+918309681995)
+[![Portfolio](https://img.shields.io/badge/Portfolio-21262d?style=flat-square&logo=vercel&logoColor=white)](https://portofolio-iota-drab-61.vercel.app/)
+
+<i><sub>Bengaluru, Karnataka, India</sub></i>
 
 </div>
 
