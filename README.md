@@ -1,234 +1,196 @@
-<!-- ⋆˙⟡ thanks for peeking under the hood —
-     the 3D skyline is rebuilt nightly by GitHub Actions;
-     the floating cubes, the desk-cat and the astronaut are hand-drawn animated SVGs.
+<!-- ⋆˙⟡ ENGINEER'S QUEST — a playable profile
+     HUD, artifacts & skyline are live renders: the skyline is rebuilt nightly
+     by GitHub Actions, everything else is hand-authored animated SVG.
+     No image redirects except the Kairvex banner and the party links below.
 -->
 
 <div align="center">
 
-<img width="100%" alt="Harshavardhan Reddy Bobbiti" src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:8A7CFF,50:5EA2FF,100:3DDAD7&text=Harshavardhan%20Reddy%20Bobbiti&desc=Software%20Engineer%20%C2%B7%20Java%20Microservices%20%C2%B7%20Cloud%20Infrastructure%20%C2%B7%20AI%20Systems&descSize=14&descAlignY=72&fontSize=33&fontColor=E6EDF3&animation=twinkling" />
+<img width="100%" alt="Harshavardhan" src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:8A7CFF,50:5EA2FF,100:3DDAD7&text=HARSHAVARDHAN&desc=SOFTWARE%20ENGINEER%20%C2%B7%20JAVA%20MICROSERVICES%20%C2%B7%20CLOUD%20%C2%B7%20AI%20SYSTEMS&descSize=13.5&descAlignY=72&fontSize=42&fontColor=E6EDF3&animation=twinkling" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=8A7CFF&center=true&vCenter=true&width=640&height=50&lines=Software+Engineer+%40+Capgemini;Java+Microservices+%C2%B7+Cloud+Infrastructure+%C2%B7+AI+Systems;Building+the+Kairvex+engineering+ecosystem" alt="Typing SVG" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2700&pause=1100&color=3DDAD7&center=true&vCenter=true&width=620&height=46&lines=%3E+press+start+...+player+found%3A+harshavardhan;%3E+class%3A+backend+engineer+%C2%B7+guild%3A+capgemini;%3E+side+quest%3A+building+the+kairvex+ecosystem;%3E+status%3A+ONLINE+%C2%B7+bengaluru+server" alt="Typing SVG" />
 
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-8A7CFF?style=flat-square&logo=vercel&logoColor=white)](https://portofolio-iota-drab-61.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-5EA2FF?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-rdy626/)
-[![Kairvex](https://img.shields.io/badge/Kairvex_Ecosystem-3DDAD7?style=flat-square&logo=github&logoColor=white)](https://github.com/Kairvex-Eco-System)
-
-<br/>
-
-<sub>[About](#-about) · [Kairvex](#-the-kairvex-ecosystem) · [Stack](#-toolbox) · [Metrics](#-github) · [Cozy](#-the-cozy-corner) · [Art](#-contribution-art) · [Connect](#-connect)</sub>
+<sub>[Player](#-act-i--the-player) · [Quest Log](#-act-ii--the-quest-log) · [Kairvex](#-act-iii--kairvex-saga) · [Skill Tree](#-the-skill-tree) · [High Scores](#-high-scores) · [Easter Eggs](#-easter-eggs) · [Party](#-join-the-party)</sub>
 
 </div>
 
----
+<img width="100%" alt="" src="./assets/hud-divider.svg" />
 
-## ✦ About
-
-```yaml
-name: Harshavardhan Reddy Bobbiti
-role: Software Engineer @ Capgemini — Nuuday Telecom
-focus: [ Java Microservices, Cloud Infrastructure, AI Systems ]
-building: Kairvex — a production-grade, multi-repo engineering ecosystem
-now: >-
-  engineering the Agentic AI prompt-pipeline —
-  evaluation, versioning & optimization at enterprise scale
-before: UI Developer @ Bhrish Labs (Nestlé partner) — React + TypeScript
-```
+## ◆ ACT I · The Player
 
 <div align="center">
-  <sub><code>plan → build → test → deploy → observe → modernize</code></sub>
+  <img src="./assets/emblem.svg" width="200" alt="Engineer emblem — faceted hexagon core with rotating rings" />
+  <br/>
+  <sub><b>ENGINEER · LV 2+</b> — two years shipped to production, zero abandoned quests</sub>
 </div>
+
+```yaml
+player:     Harshavardhan Reddy Bobbiti
+class:      Backend Engineer — Java · Spring · K8s
+guild:      Capgemini (Nuuday Telecom)
+quest:      the Agentic Gallery — prompt evaluation, versioning & optimization
+build:      full-stack origin → backend main tree
+```
 
 > ⚡ *Started in frontend — so I build the APIs the frontend always wished existed.*
 
 <div align="center">
-  <img src="./assets/iso-stack.svg" width="62%" alt="Floating 3D components — API, data and cloud layers" />
-  <br/>
-  <i><sub>systems, layered — the stack I ship behind, rendered as floating components</sub></i>
+  <img src="./assets/iso-stack.svg" width="58%" alt="The loadout — floating 3D API, data and cloud layers" />
+  <br/><sub><i>the loadout — api · data · cloud layers, floating in orbit</i></sub>
 </div>
 
 <details>
-<summary><b>📜 Education & Certifications</b></summary>
+<summary><b>◈ Origin Story</b> — <i>where the stats were allocated</i></summary>
 <br/>
 
-- 🎓 **B.Tech — Computer Science & Business Systems** · SRM Institute of Science & Technology · `9.2 GPA`
-- 🧪 **Meta Front-End Developer** — Professional Certificate, Coursera
-- 🌀 **Java Spring Boot Microservices 5-in-1** — Boot · Cloud · Docker · K8s, Udemy
-- ☸️ **Kubernetes Application Developer (CKAD)** — KodeKloud
+- 🎓 **B.Tech — Computer Science & Business Systems** · SRM Institute · `9.2 GPA`
+- 🧪 **Meta Front-End Developer** · Coursera
+- 🌀 **Spring Boot Microservices 5-in-1** — Boot · Cloud · Docker · K8s · Udemy
+- ☸️ **CKAD-track Kubernetes Application Developer** · KodeKloud
 
 </details>
 
-<details>
-<summary><b>🧭 Professional Milestones</b></summary>
-<br/>
+<img width="100%" alt="" src="./assets/hud-divider.svg" />
 
-- 🏢 **Capgemini** — multi-threaded processing modules for an internal **Agentic Gallery platform**: prompt-evaluation loops, strict JUnit/Mockito coverage, SonarQube build gates
-- 🖥️ **Bhrish Labs** — modernized the enterprise **HR Requisition Platform** (Nestlé partner) with modular React & atomic design — cut redundant code by **30%**
+## ◆ ACT II · The Quest Log
 
-</details>
+**⚔️ ACTIVE — “The Agentic Gallery”** · `Capgemini` · 2025 → now
+→ multi-threaded Java pipelines that evaluate, version & optimize AI prompts — faster text processing, lower LLM latency
+→ deep JUnit + Mockito suite, SonarQube gates catching memory leaks & thread safety · **90% coverage held**
+→ containerized with Docker, automated Jenkins + Maven builds · reward: *the frontend & AI teams plug in effortlessly*
 
-<details>
-<summary><b>🧠 How this page renders its art</b></summary>
-<br/>
+**✅ COMPLETE — “The Frontend Campaign”** · `Bhrish Labs × Nestlé` · 2024–25
+→ refactored an enterprise HR Requisition Platform to atomic design (atoms → organisms)
+→ multi-step wizard forms via custom hooks & Context API — zero redundant components
+→ debounced search, lazy loading & pagination killing DOM bottlenecks · **reward: −30% code footprint**
 
-GitHub strips JavaScript — so everything visual here is a live component instead: the
-**3D contribution skyline** is rebuilt nightly by GitHub Actions, stats stream in from
-render APIs, and the floating cubes, the dozing desk-cat and the waving astronaut are
-hand-authored animated SVGs. Nothing here is a screenshot.
+<img width="100%" alt="" src="./assets/hud-divider.svg" />
 
-</details>
-
----
-
-## ✦ The Kairvex Ecosystem
+## ◆ ACT III · Kairvex Saga
 
 <div align="center">
   <a href="https://github.com/Kairvex-Eco-System">
-    <img src="./assets/kairvex-banner.jpg" width="100%" alt="Kairvex Engineering Ecosystem" />
+    <img src="./assets/kairvex-banner.jpg" width="100%" alt="The Kairvex Engineering Ecosystem" />
   </a>
-  <br/>
-  <i><sub>a modular blueprint of running software systems — not tutorial projects</sub></i>
+  <br/><sub><i>an open-world map of running systems — six core artifacts, five side quests</i></sub>
 </div>
 
-#### ⚙️ Core Systems
+#### ⬛ Core Artifacts
 
-**◈ [kairvex-platform](https://github.com/Kairvex-Eco-System/kairvex-platform)** — engineering delivery & automation control center: UI modules, microservices, infra & multi-agent pipelines in one hub
-`Flagship` `Control Center`
+**🟨 `LEGENDARY` · [kairvex-platform](https://github.com/Kairvex-Eco-System/kairvex-platform)** — the control center: UI modules, microservices, infra provisioning & multi-agent pipelines in one hub
 
-**◈ [kairvex-microservices](https://github.com/Kairvex-Eco-System/kairvex-microservices)** — distributed backend engine with DDD boundaries, Spring Cloud Gateway routing & transactional JWT token parsing
-`Java 17` `Spring Boot` `Spring Data JPA`
+**🟪 `ELITE` · [kairvex-microservices](https://github.com/Kairvex-Eco-System/kairvex-microservices)** — DDD-bounded backend engine · Spring Cloud Gateway routing · transactional JWT parsing · `Java 17 · Spring Data JPA`
 
-**◈ [kairvex-agentic-systems](https://github.com/Kairvex-Eco-System/kairvex-agentic-systems)** — autonomous intelligence layer: multi-agent orchestration, static test generation & structural RCA loops
-`LangGraph` `CrewAI` `OpenAI Tool Calling`
+**🟪 `ELITE` · [kairvex-agentic-systems](https://github.com/Kairvex-Eco-System/kairvex-agentic-systems)** — autonomous intelligence layer: multi-agent orchestration, static test generation, structural RCA loops · `LangGraph · CrewAI · OpenAI tool calling`
 
-**◈ [kairvex-cloud](https://github.com/Kairvex-Eco-System/kairvex-cloud)** — infrastructure as code: private network layers, Azure Container Registry & AKS clusters
-`Terraform` `AKS` `ACR`
+**🟦 `RARE` · [kairvex-cloud](https://github.com/Kairvex-Eco-System/kairvex-cloud)** — infra as code: private networks, Azure Container Registry, AKS clusters · `Terraform`
 
-**◈ [kairvex-delivery](https://github.com/Kairvex-Eco-System/kairvex-delivery)** — CI/CD engine: security scans, SonarQube & image-scan gates, blue-green + canary rollouts
-`Jenkins` `GitHub Actions` `SonarQube`
+**🟦 `RARE` · [kairvex-delivery](https://github.com/Kairvex-Eco-System/kairvex-delivery)** — the CI/CD engine: security scans, SonarQube & image-scan gates, blue-green + canary rollouts · `Jenkins · GitHub Actions`
 
-**◈ [kairvex-frontend](https://github.com/Kairvex-Eco-System/kairvex-frontend)** — enterprise shell frontend: feature apps composed at atomic boundaries — no UI monolith
-`React` `TypeScript` `Module Federation`
+**🟦 `RARE` · [kairvex-frontend](https://github.com/Kairvex-Eco-System/kairvex-frontend)** — enterprise shell: feature apps composed at atomic boundaries, no UI monolith · `React · TS · Module Federation`
 
-#### 🧬 Deep Domains
+#### ◈ Side Quests
 
-**◈ [kairvex-data](https://github.com/Kairvex-Eco-System/kairvex-data)** — polyglot persistence: PostgreSQL · Redis · MongoDB · Neo4j blast-radius mapping
+**◇ [kairvex-data](https://github.com/Kairvex-Eco-System/kairvex-data)** polyglot persistence — PostgreSQL · Redis · MongoDB · Neo4j blast-radius
+**◇ [kairvex-event-systems](https://github.com/Kairvex-Eco-System/kairvex-event-systems)** Kafka loops · transactional Outbox · idempotent consumers
+**◇ [kairvex-resilience](https://github.com/Kairvex-Eco-System/kairvex-resilience)** chaos testbench — Resilience4j breakers · bulkheads · rate limits
+**◇ [kairvex-mlops](https://github.com/Kairvex-Eco-System/kairvex-mlops)** release-risk prediction · registries · drift-retraining jobs
+**◇ [kairvex-labs](https://github.com/Kairvex-Eco-System/kairvex-labs)** the sandbox — PoCs before production promotion
 
-**◈ [kairvex-event-systems](https://github.com/Kairvex-Eco-System/kairvex-event-systems)** — Kafka event loops, transactional Outbox publishing & idempotent consumers
+<img width="100%" alt="" src="./assets/hud-divider.svg" />
 
-**◈ [kairvex-resilience](https://github.com/Kairvex-Eco-System/kairvex-resilience)** — chaos testbench: Resilience4j circuit breakers, bulkhead isolation & rate limiting under failure
-
-**◈ [kairvex-mlops](https://github.com/Kairvex-Eco-System/kairvex-mlops)** — ML lifecycle: release-risk prediction, model registries & drift-retraining jobs
-
-**◈ [kairvex-labs](https://github.com/Kairvex-Eco-System/kairvex-labs)** — isolated sandbox for rapid PoCs before production promotion
-
----
-
-## ✦ Toolbox
+## ◆ The Skill Tree
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,nodejs,py,ts,react,postgres,mysql,redis,mongodb,kafka&perline=11" alt="engineering & data" />
-<br/>
-<i><sub>engineering · data · events</sub></i>
+<img src="https://skillicons.dev/icons?i=java,spring,nodejs,py,ts,react,postgres,mysql,redis,mongodb,kafka&perline=11" alt="engineering · data · events" />
+<br/><sub><i>tier 1 — main tree</i></sub>
 <br/><br/>
-<img src="https://skillicons.dev/icons?i=terraform,azure,docker,kubernetes,jenkins,githubactions,aws,git,linux,postman,jest&perline=11" alt="cloud, platform & delivery" />
-<br/>
-<i><sub>cloud · platform · delivery</sub></i>
+<img src="https://skillicons.dev/icons?i=terraform,azure,docker,kubernetes,jenkins,githubactions,aws,git,linux,postman,jest&perline=11" alt="cloud · platform · delivery" />
+<br/><sub><i>tier 2 — infrastructure branch</i></sub>
 
 </div>
 
 <details>
-<summary><b>🧰 Full stack breakdown</b></summary>
+<summary><b>◈ Full Attribute Sheet</b></summary>
 <br/>
 
-| Layer | Technologies & Frameworks |
+| Attribute | Allocation |
 | :--- | :--- |
-| **Backend & Core** | Core Java, Spring Boot, Spring Data JPA, Hibernate, Node.js (Express), Microservices, RESTful APIs |
-| **Frontend Architecture** | ReactJS, JavaScript, TypeScript, Webpack Module Federation, Context API, Redux Toolkit, React Hooks |
-| **Data & Caching** | PostgreSQL, MySQL, RDBMS Optimization & Indexing, Redis, pgvector, Neo4j, MongoDB |
+| **Backend & Core** | Core Java, Spring Boot, Spring Data JPA, Hibernate, Node.js (Express), Microservices, REST APIs |
+| **Frontend** | ReactJS, TypeScript, Module Federation, Context API, Redux Toolkit, Hooks |
+| **Data & Caching** | PostgreSQL, MySQL, indexing & RDBMS optimization, Redis, pgvector, Neo4j, MongoDB |
 | **Cloud & DevOps** | Docker, Kubernetes (CKAD), Azure AKS, Terraform, Jenkins, Maven, GitHub Actions, AWS |
-| **Testing & Quality** | SonarQube Gates, JUnit 5, Mockito, Jest, Vitest, Playwright E2E, Selenium |
-| **AI & Automation** | LangGraph, CrewAI, OpenAI Tool Calling, Vector Embedding Pipelines, Azure AI Foundry |
+| **Quality** | SonarQube gates, JUnit 5, Mockito, Jest, Vitest, Playwright E2E, Selenium |
+| **AI & Agents** | LangGraph, CrewAI, OpenAI tool calling, vector embeddings, Azure AI Foundry |
 
 </details>
 
----
+<img width="100%" alt="" src="./assets/hud-divider.svg" />
 
-## ✦ GitHub
+## ◆ High Scores
 
 <div align="center">
-
-<img height="150" alt="GitHub stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Harshabobbiti626&theme=github_dark" />
-<img height="150" alt="GitHub streak" src="https://streak-stats.demolab.com?user=Harshabobbiti626&hide_border=true&background=00000000&currStreakNum=E6EDF3&sideNums=C9D1D9&currStreakLabel=8A7CFF&sideLabels=5EA2FF&dates=75849B" />
-<br/>
-<img height="180" alt="Languages" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Harshabobbiti626&theme=github_dark" />
-
+  <sub><i>career telemetry — live from the GitHub servers</i></sub>
+  <br/><br/>
+  <img height="150" alt="stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Harshabobbiti626&theme=github_dark" />
+  <img height="150" alt="streak" src="https://streak-stats.demolab.com?user=Harshabobbiti626&hide_border=true&background=00000000&currStreakNum=E6EDF3&sideNums=C9D1D9&currStreakLabel=3DDAD7&sideLabels=8A7CFF&dates=75849B" />
 </div>
 
----
+<div align="center">
+  <sub><i>the trophy room — your contributions as a 3D skyline, rebuilt nightly</i></sub>
+  <br/><br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
+    <img alt="3D contribution skyline" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+  </picture>
+</div>
 
-## ✦ The Cozy Corner
+<img width="100%" alt="" src="./assets/hud-divider.svg" />
+
+## ◆ Easter Eggs
 
 <div align="center">
-
-<i><sub>artifacts with a heartbeat — click to open them</sub></i>
+<sub><i>minigames — click to play</i></sub>
+<br/><br/>
 
 <details>
 <summary><b>☕ the dev desk</b> — <i>someone fell asleep on the job again</i></summary>
 <br/>
-
-<img src="./assets/desk.svg" width="74%" alt="Animated dev desk — code typing itself, steaming coffee, a sleeping cat" />
-
-<br/>
-<i><sub>compiling… the cat is supervising. coffee refills after this build.</sub></i>
-
+<img src="./assets/desk.svg" width="72%" alt="Dev desk — self-typing code, steaming coffee, sleeping cat" />
+<br/><sub><i>compiling… the cat is supervising. coffee refills after this build.</i></sub>
 </details>
 
 <details>
-<summary><b>🛸 the night orbit</b> — <i>the cube laps the planet every 14s — say hi to the astronaut</i></summary>
+<summary><b>🛸 the night orbit</b> — <i>the cube laps the planet every 14s — wave back</i></summary>
 <br/>
+<img src="./assets/orbit.svg" width="72%" alt="Astronaut waving beside a cratered planet with an orbiting cube" />
+<br/><sub><i>shipping to production takes a little space.</i></sub>
+</details>
 
-<img src="./assets/orbit.svg" width="74%" alt="Waving astronaut beside a cratered planet with an orbiting cube" />
-
+<details>
+<summary><b>💎 the loot crystal</b> — <i>a rare drop — one per profile</i></summary>
 <br/>
-<i><sub>shipping to production takes a little space.</sub></i>
-
+<img src="./assets/crystal.svg" width="72%" alt="Floating loot crystal with orbiting shards and a shine sweep" />
+<br/><sub><i>drop rate: 100% for visitors who scroll this far.</i></sub>
 </details>
 
 </div>
 
----
+<img width="100%" alt="" src="./assets/hud-divider.svg" />
 
-## ✦ Contribution Art
-
-<div align="center">
-
-<i><sub>your contributions, rendered as a 3D skyline — rebuilt nightly by GitHub Actions</sub></i>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
-  <img alt="3D contribution graph" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
-</picture>
-
-</div>
-
----
-
-## ✦ Connect
+## ◆ Join the Party
 
 <div align="center">
 
-**Open to backend & platform engineering roles — my inbox is always open.**
+**The next quest has an open party slot — bring your inbox.**
 
-[![Email](https://img.shields.io/badge/Email-3DDAD7?style=flat-square&logo=gmail&logoColor=white)](mailto:harshabobbiti626@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-5EA2FF?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-rdy626/)
-[![Phone](https://img.shields.io/badge/%2B91_8309681995-8A7CFF?style=flat-square)](tel:+918309681995)
-[![Portfolio](https://img.shields.io/badge/Portfolio-21262d?style=flat-square&logo=vercel&logoColor=white)](https://portofolio-iota-drab-61.vercel.app/)
+` 📧 ` [harshabobbiti626@gmail.com](mailto:harshabobbiti626@gmail.com)
+` 🐺 ` [linkedin.com/in/harsha-rdy626](https://www.linkedin.com/in/harsha-rdy626/)
+` 🏰 ` [the old castle (portfolio)](https://portofolio-iota-drab-61.vercel.app/)
 
-<i><sub>Bengaluru, Karnataka, India</sub></i>
+<sub>Bengaluru, Karnataka · India · press ▶ to start</sub>
 
 </div>
 
@@ -236,8 +198,8 @@ hand-authored animated SVGs. Nothing here is a screenshot.
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=Harshabobbiti626&style=flat-square&color=21262d&label=PROFILE+VIEWS" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=Harshabobbiti626&style=flat-square&color=0A0E17&label=PLAYERS+ENTERED" alt="profile views" />
 
-<img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=wave&section=footer&height=100&color=0:8A7CFF,50:5EA2FF,100:3DDAD7" />
+<img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=wave&section=footer&height=90&color=0:8A7CFF,50:5EA2FF,100:3DDAD7" />
 
 </div>

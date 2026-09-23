@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" fill="none">
+  <style>
+    @keyframes spin  { to { transform: rotate(360deg); } }
+    @keyframes bob   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    @keyframes pulse { 0%,100% { opacity: .3; } 50% { opacity: .75; } }
+    .ringA { animation: spin 26s linear infinite;           transform-origin: 210px 210px; }
+    .ringB { animation: spin 44s linear infinite reverse;   transform-origin: 210px 210px; }
+    .core  { animation: bob 5.6s ease-in-out infinite; }
+    .bloom { animation: pulse 5.6s ease-in-out infinite; }
+  </style>
+  <defs>
+    <linearGradient id="hxTL" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E4DFFF"/><stop offset="1" stop-color="#B9AEFF"/></linearGradient>
+    <linearGradient id="hxTR" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CDC6FF"/><stop offset="1" stop-color="#8A7CFF"/></linearGradient>
+    <linearGradient id="hxBR" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6E60E8"/><stop offset="1" stop-color="#4B3FBE"/></linearGradient>
+    <linearGradient id="hxBL" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7FB4FF"/><stop offset="1" stop-color="#5EA2FF"/></linearGradient>
+    <linearGradient id="hxBT" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3DDAD7"/><stop offset="1" stop-color="#1F7E7C"/></linearGradient>
+    <radialGradient id="bloomG" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8A7CFF" stop-opacity="0.45"/><stop offset="1" stop-color="#8A7CFF" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <circle class="bloom" cx="210" cy="210" r="205" fill="url(#bloomG)"/>
+
+  <circle class="ringA" cx="210" cy="210" r="176" stroke="#8A7CFF" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <circle class="ringB" cx="210" cy="210" r="150" stroke="#3DDAD7" stroke-opacity="0.4"  stroke-width="1.2" stroke-dasharray="56 14 5 14"/>
+
+  <g class="core">
+    <path d="M210,118 L286,162 L286,258 L210,302 L134,258 L134,162 Z" stroke="#E6EDF3" stroke-opacity="0.35" stroke-width="1.5" fill="none"/>
+    <path d="M210,118 L134,162 L210,196 Z"   fill="url(#hxTL)"/>
+    <path d="M210,118 L286,162 L210,196 Z"   fill="url(#hxTR)"/>
+    <path d="M286,162 L286,258 L210,196 Z"   fill="url(#hxBR)"/>
+    <path d="M134,162 L134,258 L210,196 Z"   fill="url(#hxBL)"/>
+    <path d="M134,258 L210,302 L286,258 L210,196 Z" fill="url(#hxBT)"/>
+    <path d="M210,150 L228,168 L210,186 L192,168 Z" fill="#E6EDF3" opacity="0.8"/>
+    <line x1="210" y1="118" x2="210" y2="302" stroke="#E6EDF3" stroke-opacity="0.28" stroke-width="1"/>
+  </g>
+
+  <circle cx="210" cy="210" r="192" stroke="#8A7CFF" stroke-opacity="0.16" stroke-width="1"/>
+</svg>

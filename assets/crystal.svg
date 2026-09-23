@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" fill="none">
+  <style>
+    @keyframes bob     { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+    @keyframes pulse   { 0%,100% { opacity: .3; } 50% { opacity: .75; } }
+    @keyframes twinkle { 0%,100% { opacity: .1; } 50% { opacity: .85; } }
+    @keyframes sweep   { 0% { transform: translateX(-120px); } 55%,100% { transform: translateX(120px); } }
+    .gem    { animation: bob 5.2s ease-in-out infinite; }
+    .bloom  { animation: pulse 5.2s ease-in-out infinite; }
+    .star   { animation: twinkle 3s ease-in-out infinite; }
+    .shine  { animation: sweep 4.6s ease-in-out infinite; }
+  </style>
+  <defs>
+    <linearGradient id="cwL" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C8FFF9"/><stop offset="1" stop-color="#3DDAD7"/></linearGradient>
+    <linearGradient id="cwR" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CDC6FF"/><stop offset="1" stop-color="#8A7CFF"/></linearGradient>
+    <linearGradient id="pvL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2FB8B5"/><stop offset="1" stop-color="#1F7E7C"/></linearGradient>
+    <linearGradient id="pvR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5A4BD0"/><stop offset="1" stop-color="#3A2FA0"/></linearGradient>
+    <linearGradient id="shineG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <radialGradient id="bloomG" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8A7CFF" stop-opacity="0.5"/><stop offset="1" stop-color="#8A7CFF" stop-opacity="0"/></radialGradient>
+    <clipPath id="gemClip"><polygon points="450,66 548,172 450,330 352,172"/></clipPath>
+    <path id="shardOrbit" d="M 210,195 a 240,66 0 1,0 480,0 a 240,66 0 1,0 -480,0"/>
+  </defs>
+
+  <ellipse class="bloom" cx="450" cy="200" rx="230" ry="150" fill="url(#bloomG)"/>
+  <ellipse cx="450" cy="352" rx="130" ry="13" fill="#8A7CFF" opacity="0.14"/>
+
+  <path d="M 210,195 a 240,66 0 1,0 480,0 a 240,66 0 1,0 -480,0" stroke="#5EA2FF" stroke-opacity="0.3" stroke-width="1.2" stroke-dasharray="2 8" fill="none"/>
+
+  <circle class="star" cx="150" cy="90"  r="2.4" fill="#3DDAD7"/>
+  <circle class="star" cx="760" cy="70"  r="2"   fill="#8A7CFF" style="animation-delay:-1.3s"/>
+  <circle class="star" cx="830" cy="250" r="2.4" fill="#5EA2FF" style="animation-delay:-2.1s"/>
+  <circle class="star" cx="90"  cy="270" r="2"   fill="#8A7CFF" style="animation-delay:-.8s"/>
+  <path class="star" d="M660,140 l1.8,4.2 4.2,1.8 -4.2,1.8 -1.8,4.2 -1.8,-4.2 -4.2,-1.8 4.2,-1.8 Z" fill="#3DDAD7" style="animation-delay:-1.7s"/>
+
+  <g class="gem">
+    <polygon points="450,66 352,172 450,196"   fill="url(#cwL)"/>
+    <polygon points="450,66 548,172 450,196"   fill="url(#cwR)"/>
+    <polygon points="352,172 450,330 450,196"  fill="url(#pvL)"/>
+    <polygon points="548,172 450,330 450,196"  fill="url(#pvR)"/>
+    <polygon points="450,66 548,172 352,172"   fill="#E6EDF3" opacity="0.22"/>
+    <g clip-path="url(#gemClip)">
+      <rect class="shine" x="330" y="40" width="90" height="320" fill="url(#shineG)" transform="skewX(-14)"/>
+    </g>
+    <polygon points="450,66 548,172 450,330 352,172" stroke="#E6EDF3" stroke-opacity="0.3" stroke-width="1.4" fill="none"/>
+  </g>
+
+  <g fill="#3DDAD7">
+    <polygon points="0,-7 8,0 0,7 -8,0"><animateMotion dur="11s" repeatCount="indefinite"><mpath href="#shardOrbit"/></animateMotion></polygon>
+  </g>
+  <g fill="#8A7CFF">
+    <polygon points="0,-6 7,0 0,6 -7,0"><animateMotion dur="11s" begin="-5.5s" repeatCount="indefinite"><mpath href="#shardOrbit"/></animateMotion></polygon>
+  </g>
+</svg>
