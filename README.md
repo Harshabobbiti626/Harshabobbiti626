@@ -1,7 +1,7 @@
-<!-- ⋆˙⟡ ENGINEER'S QUEST — a playable profile
-     HUD, artifacts & skyline are live renders: the skyline is rebuilt nightly
-     by GitHub Actions, everything else is hand-authored animated SVG.
-     No image redirects except the Kairvex banner and the party links below.
+<!-- ⋆˙⟡ THE ENGINEER'S QUEST — a playable profile
+     Everything here renders live: the skyline rebuilds nightly via GitHub Actions,
+     the rest is hand-authored animated SVG. No image redirects except the
+     Kairvex banner and the contact links in the final section.
 -->
 
 <div align="center">
@@ -10,34 +10,36 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2700&pause=1100&color=3DDAD7&center=true&vCenter=true&width=620&height=46&lines=%3E+press+start+...+player+found%3A+harshavardhan;%3E+class%3A+backend+engineer+%C2%B7+guild%3A+capgemini;%3E+side+quest%3A+building+the+kairvex+ecosystem;%3E+status%3A+ONLINE+%C2%B7+bengaluru+server" alt="Typing SVG" />
 
-<sub>[Player](#-act-i--the-player) · [Quest Log](#-act-ii--the-quest-log) · [Kairvex](#-act-iii--kairvex-saga) · [Skill Tree](#-the-skill-tree) · [High Scores](#-high-scores) · [Easter Eggs](#-easter-eggs) · [Party](#-join-the-party)</sub>
+<sub>[Player](#-act-i--the-player) · [Quest Log](#-act-ii--the-quest-log) · [Kairvex](#-act-iii--kairvex-saga) · [Skills](#-the-skill-tree) · [Scores](#-high-scores)</sub>
 
 </div>
 
 <img width="100%" alt="" src="./assets/hud-divider.svg" />
 
+<div align="center">
+<sub>CAREER STATS</sub>
+
+**`⏱ 2+ yrs shipping` · `🧪 90% coverage held` · `📉 −30% code footprint` · `☸️ K8s-certified track` · `🎓 9.2 GPA`**
+
+</div>
+
 ## ◆ ACT I · The Player
 
 <div align="center">
-  <img src="./assets/emblem.svg" width="200" alt="Engineer emblem — faceted hexagon core with rotating rings" />
+  <img src="./assets/emblem.svg" width="190" alt="Engineer emblem — faceted hexagon core with rotating rings" />
   <br/>
   <sub><b>ENGINEER · LV 2+</b> — two years shipped to production, zero abandoned quests</sub>
 </div>
 
 ```yaml
-player:     Harshavardhan Reddy Bobbiti
-class:      Backend Engineer — Java · Spring · K8s
-guild:      Capgemini (Nuuday Telecom)
-quest:      the Agentic Gallery — prompt evaluation, versioning & optimization
-build:      full-stack origin → backend main tree
+player:   Harshavardhan Reddy Bobbiti
+class:    Backend Engineer — Java · Spring · K8s
+guild:    Capgemini (Nuuday Telecom)
+quest:    the Agentic Gallery — prompt evaluation, versioning & optimization
+origin:   full-stack → backend main tree
 ```
 
 > ⚡ *Started in frontend — so I build the APIs the frontend always wished existed.*
-
-<div align="center">
-  <img src="./assets/iso-stack.svg" width="58%" alt="The loadout — floating 3D API, data and cloud layers" />
-  <br/><sub><i>the loadout — api · data · cloud layers, floating in orbit</i></sub>
-</div>
 
 <details>
 <summary><b>◈ Origin Story</b> — <i>where the stats were allocated</i></summary>
@@ -50,14 +52,14 @@ build:      full-stack origin → backend main tree
 
 </details>
 
-<img width="100%" alt="" src="./assets/hud-divider.svg" />
+---
 
 ## ◆ ACT II · The Quest Log
 
 **⚔️ ACTIVE — “The Agentic Gallery”** · `Capgemini` · 2025 → now
 → multi-threaded Java pipelines that evaluate, version & optimize AI prompts — faster text processing, lower LLM latency
 → deep JUnit + Mockito suite, SonarQube gates catching memory leaks & thread safety · **90% coverage held**
-→ containerized with Docker, automated Jenkins + Maven builds · reward: *the frontend & AI teams plug in effortlessly*
+→ containerized with Docker, automated Jenkins + Maven builds · reward: *frontend & AI teams plug in effortlessly*
 
 **✅ COMPLETE — “The Frontend Campaign”** · `Bhrish Labs × Nestlé` · 2024–25
 → refactored an enterprise HR Requisition Platform to atomic design (atoms → organisms)
@@ -72,7 +74,8 @@ build:      full-stack origin → backend main tree
   <a href="https://github.com/Kairvex-Eco-System">
     <img src="./assets/kairvex-banner.jpg" width="100%" alt="The Kairvex Engineering Ecosystem" />
   </a>
-  <br/><sub><i>an open-world map of running systems — six core artifacts, five side quests</i></sub>
+  <br/>
+  <sub><i>an open-world map of running systems — six core artifacts, five side quests</i></sub>
 </div>
 
 #### ⬛ Core Artifacts
@@ -97,7 +100,7 @@ build:      full-stack origin → backend main tree
 **◇ [kairvex-mlops](https://github.com/Kairvex-Eco-System/kairvex-mlops)** release-risk prediction · registries · drift-retraining jobs
 **◇ [kairvex-labs](https://github.com/Kairvex-Eco-System/kairvex-labs)** the sandbox — PoCs before production promotion
 
-<img width="100%" alt="" src="./assets/hud-divider.svg" />
+---
 
 ## ◆ The Skill Tree
 
@@ -126,7 +129,7 @@ build:      full-stack origin → backend main tree
 
 </details>
 
-<img width="100%" alt="" src="./assets/hud-divider.svg" />
+---
 
 ## ◆ High Scores
 
@@ -135,10 +138,8 @@ build:      full-stack origin → backend main tree
   <br/><br/>
   <img height="150" alt="stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Harshabobbiti626&theme=github_dark" />
   <img height="150" alt="streak" src="https://streak-stats.demolab.com?user=Harshabobbiti626&hide_border=true&background=00000000&currStreakNum=E6EDF3&sideNums=C9D1D9&currStreakLabel=3DDAD7&sideLabels=8A7CFF&dates=75849B" />
-</div>
-
-<div align="center">
-  <sub><i>the trophy room — your contributions as a 3D skyline, rebuilt nightly</i></sub>
+  <br/><br/>
+  <sub><i>the trophy room — contributions as a 3D skyline, rebuilt nightly</i></sub>
   <br/><br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
@@ -147,30 +148,30 @@ build:      full-stack origin → backend main tree
   </picture>
 </div>
 
-<img width="100%" alt="" src="./assets/hud-divider.svg" />
+---
 
 ## ◆ Easter Eggs
 
 <div align="center">
-<sub><i>minigames — click to play</i></sub>
+<sub><i>hidden rooms — no map markers, just curiosity</i></sub>
 <br/><br/>
 
 <details>
-<summary><b>☕ the dev desk</b> — <i>someone fell asleep on the job again</i></summary>
+<summary><b>☕ the dev desk</b></summary>
 <br/>
 <img src="./assets/desk.svg" width="72%" alt="Dev desk — self-typing code, steaming coffee, sleeping cat" />
 <br/><sub><i>compiling… the cat is supervising. coffee refills after this build.</i></sub>
 </details>
 
 <details>
-<summary><b>🛸 the night orbit</b> — <i>the cube laps the planet every 14s — wave back</i></summary>
+<summary><b>🛸 the night orbit</b></summary>
 <br/>
 <img src="./assets/orbit.svg" width="72%" alt="Astronaut waving beside a cratered planet with an orbiting cube" />
 <br/><sub><i>shipping to production takes a little space.</i></sub>
 </details>
 
 <details>
-<summary><b>💎 the loot crystal</b> — <i>a rare drop — one per profile</i></summary>
+<summary><b>💎 the loot crystal</b></summary>
 <br/>
 <img src="./assets/crystal.svg" width="72%" alt="Floating loot crystal with orbiting shards and a shine sweep" />
 <br/><sub><i>drop rate: 100% for visitors who scroll this far.</i></sub>
@@ -184,13 +185,11 @@ build:      full-stack origin → backend main tree
 
 <div align="center">
 
-**The next quest has an open party slot — bring your inbox.**
+**The next quest has an open party slot.**
 
-` 📧 ` [harshabobbiti626@gmail.com](mailto:harshabobbiti626@gmail.com)
-` 🐺 ` [linkedin.com/in/harsha-rdy626](https://www.linkedin.com/in/harsha-rdy626/)
-` 🏰 ` [the old castle (portfolio)](https://portofolio-iota-drab-61.vercel.app/)
+` 📧 ` **[Email](mailto:harshabobbiti626@gmail.com)** · ` 🐺 ` **[LinkedIn](https://www.linkedin.com/in/harsha-rdy626/)** · ` ✦ ` **[Portfolio](https://portofolio-iota-drab-61.vercel.app/)**
 
-<sub>Bengaluru, Karnataka · India · press ▶ to start</sub>
+<sub>Bengaluru, Karnataka · India</sub>
 
 </div>
 
