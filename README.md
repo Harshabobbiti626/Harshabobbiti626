@@ -2,7 +2,7 @@
 ## Software Engineer | Java Microservices | Cloud Infrastructure | AI Systems
 
 <p align="center">
-  <img src="https://github.com" width="100%" alt="Kairvex Engineering Ecosystem Banner" />
+  <img src="image_9a0b2c4e.jpg" width="100%" alt="Kairvex Engineering Ecosystem Banner" />
 </p>
 
 ### ⚡ Professional Persona & Technical Vision
