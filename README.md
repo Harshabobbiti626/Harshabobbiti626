@@ -1,203 +1,167 @@
-<!-- ⋆˙⟡ THE ENGINEER'S QUEST — a playable profile
-     Everything here renders live: the skyline rebuilds nightly via GitHub Actions,
-     the rest is hand-authored animated SVG. No image redirects except the
-     Kairvex banner and the contact links in the final section.
--->
-
 <div align="center">
 
-<img width="100%" alt="Harshavardhan Reddy" src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:8A7CFF,50:5EA2FF,100:3DDAD7&text=HARSHAVARDHAN&desc=SOFTWARE%20ENGINEER%20%C2%B7%20JAVA%20MICROSERVICES%20%C2%B7%20CLOUD%20%C2%B7%20AI%20SYSTEMS&descSize=13.5&descAlignY=72&fontSize=42&fontColor=E6EDF3&animation=twinkling" />
+<img width="100%" alt="Harshavardhan Reddy Bobbiti" src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:8A7CFF,50:5EA2FF,100:3DDAD7&text=HARSHAVARDHAN%20REDDY&desc=SOFTWARE%20ENGINEER%20%C2%B7%20JAVA%20MICROSERVICES%20%C2%B7%20DISTRIBUTED%20%26%20AI%20SYSTEMS&descSize=13.5&descAlignY=72&fontSize=38&fontColor=E6EDF3&animation=twinkling" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2700&pause=1100&color=3DDAD7&center=true&vCenter=true&width=620&height=46&lines=%3E+press+start+...+player+found%3A+harshavardhan;%3E+class%3A+backend+engineer+%C2%B7+guild%3A+capgemini;%3E+side+quest%3A+building+the+kairvex+ecosystem;%3E+status%3A+ONLINE+%C2%B7+bengaluru+server" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=1100&color=3DDAD7&center=true&vCenter=true&width=650&height=46&lines=%3E+Backend+Engineer+%40+Capgemini+(Nuuday+Telecom);%3E+Java+21+%C2%B7+Spring+Boot+3+%C2%B7+Microservices+%26+K8s;%3E+Multi-Agent+AI+Systems+%26+Enterprise+RAG;%3E+Bengaluru%2C+Karnataka+%C2%B7+India" alt="Typing SVG" />
 
-<sub>[Player](#-act-i--the-player) · [Quest Log](#-act-ii--the-quest-log) · [Kairvex](#-act-iii--kairvex-saga) · [Skills](#-the-skill-tree) · [Scores](#-high-scores)</sub>
+<sub>[About](#-about-me) · [Experience](#-professional-experience) · [Featured Systems](#-featured-systems--architecture) · [Skills](#-technical-arsenal) · [Telemetry](#-engineering-telemetry) · [Contact](#-connect--collaborate)</sub>
 
 </div>
 
 <img width="100%" alt="" src="./assets/hud-divider.svg" />
 
 <div align="center">
-<sub>CAREER STATS</sub>
 
-**`⏱ 2+ yrs shipping` · `🧪 90% coverage held` · `📉 −30% code footprint` · `☸️ K8s-certified track` · `🎓 9.2 GPA`**
+**`⏱ 2+ Yrs Shipping Production Systems` · `🧪 90%+ Test Coverage Held` · `📉 −30% Code Footprint (Atomic UI)` · `☸️ CKAD-Track Kubernetes` · `🎓 9.2 GPA`**
 
 </div>
-
-## ◆ ACT I · The Player
-
-<div align="center">
-  <img src="./assets/emblem.svg" width="190" alt="Engineer emblem — faceted hexagon core with rotating rings" />
-  <br/>
-  <sub><b>ENGINEER · LV 2+</b> — two years shipped to production, zero abandoned quests</sub>
-</div>
-
-```yaml
-player:   Harshavardhan Reddy Bobbiti
-class:    Backend Engineer — Java · Spring · K8s
-guild:    Capgemini (Nuuday Telecom)
-quest:    the Agentic Gallery — prompt evaluation, versioning & optimization
-origin:   full-stack → backend main tree
-```
-
-> ⚡ *Started in frontend — so I build the APIs the frontend always wished existed.*
-
-<details>
-<summary><b>◈ Origin Story</b> — <i>where the stats were allocated</i></summary>
-<br/>
-
-- 🎓 **B.Tech — Computer Science & Business Systems** · SRM Institute · `9.2 GPA`
-- 🧪 **Meta Front-End Developer** · Coursera
-- 🌀 **Spring Boot Microservices 5-in-1** — Boot · Cloud · Docker · K8s · Udemy
-- ☸️ **CKAD-track Kubernetes Application Developer** · KodeKloud
-
-</details>
 
 ---
 
-## ◆ ACT II · The Quest Log
+## 📌 About Me
 
-**⚔️ ACTIVE — “The Agentic Gallery”** · `Capgemini` · 2025 → now
-→ multi-threaded Java pipelines that evaluate, version & optimize AI prompts — faster text processing, lower LLM latency
-→ deep JUnit + Mockito suite, SonarQube gates catching memory leaks & thread safety · **90% coverage held**
-→ containerized with Docker, automated Jenkins + Maven builds · reward: *frontend & AI teams plug in effortlessly*
+I am a **Software Engineer** specializing in **backend microservices, distributed architectures, and autonomous AI systems**. With an engineering foundation spanning both modern frontend and high-throughput backend design, I build reliable, production-tested APIs, event-driven pipelines, and LLM-powered multi-agent frameworks.
 
-**✅ COMPLETE — “The Frontend Campaign”** · `Bhrish Labs × Nestlé` · 2024–25
-→ refactored an enterprise HR Requisition Platform to atomic design (atoms → organisms)
-→ multi-step wizard forms via custom hooks & Context API — zero redundant components
-→ debounced search, lazy loading & pagination killing DOM bottlenecks · **reward: −30% code footprint**
+- 🔭 **Current Focus**: Architecting high-throughput Java microservices and prompt optimization pipelines at **Capgemini (Nuuday Telecom)**.
+- ⚙️ **Core Philosophy**: Clean separation of concerns, defensive runtime boundaries, contract-first APIs, and high test coverage.
+- 🎓 **Education & Certifications**:
+  - **B.Tech in Computer Science & Business Systems** · SRM Institute of Science and Technology · `9.2 GPA`
+  - **Kubernetes Application Developer (CKAD-Track)** · KodeKloud
+  - **Spring Boot Microservices 5-in-1** (Boot · Cloud · Docker · K8s)
+  - **Meta Front-End Developer Professional** · Coursera
+
+---
+
+## 💼 Professional Experience
+
+### **Backend Software Engineer** · `Capgemini (Nuuday Telecom)`
+*2025 – Present · Bengaluru, India*
+- **Prompt Evaluation & Optimization Engine**: Engineered multi-threaded Java pipelines that evaluate, version, and optimize AI prompts—significantly reducing text processing overhead and LLM latency.
+- **Enterprise Quality & Thread Safety**: Built a comprehensive JUnit 5 and Mockito test suite; enforced SonarQube quality gates that prevent memory leaks and concurrency race conditions, holding a **90%+ test coverage standard**.
+- **Containerization & CI/CD**: Packaged services using Docker and automated builds via Jenkins and Maven pipelines for seamless multi-environment deployments.
+
+### **Software Engineer (Frontend / Full-Stack)** · `Bhrish Labs × Nestlé`
+*2024 – 2025*
+- **Enterprise HR Requisition Platform Refactor**: Re-architected core user workflows following Atomic Design principles (atoms → molecules → organisms), eliminating redundant components and cutting total code footprint by **−30%**.
+- **State Management & Form Wizardry**: Implemented robust multi-step form state management using custom React hooks and the Context API.
+- **Runtime Optimization**: Resolved critical DOM bottlenecks by introducing debounced search inputs, efficient pagination, and route-level lazy loading.
 
 <img width="100%" alt="" src="./assets/hud-divider.svg" />
 
-## ◆ ACT III · Kairvex Saga
+## 🚀 Featured Systems & Architecture
 
-<div align="center">
-  <a href="https://github.com/Kairvex-Eco-System">
-    <img src="./assets/kairvex-banner.jpg" width="100%" alt="The Kairvex Engineering Ecosystem" />
-  </a>
-  <br/>
-  <sub><i>an open-world map of running systems — six core artifacts, five side quests</i></sub>
-</div>
+A selection of real, production-ready systems and open-source architectures I have designed and built:
 
-#### ⬛ Core Artifacts
+### 1. [Supply-Chain-Copilot](https://github.com/Harshabobbiti626/Supply-Chain-Copilot)
+> **Enterprise Event-Driven Logistics Disruption & Route Optimization Platform**
+- **Architecture**: Java 21 & Spring Boot 3 backend utilizing ACID pessimistic locking and the transactional outbox pattern to guarantee zero dual-write inconsistencies during shipment state transitions.
+- **Intelligence & Optimization**: Integrates Google OR-Tools MILP solver for constrained vehicle rerouting alongside Gemini 2.5 Flash with continuous vector RAG for logistics disruption diagnosis.
+- **Real-Time Visualization**: Interactive React 19 geospatial Leaflet canvas streaming real-time dispatch updates via STOMP WebSockets.
+- **Stack**: `Java 21` · `Spring Boot 3` · `Google OR-Tools` · `Gemini 2.5 Flash` · `Vector RAG` · `React 19` · `Leaflet` · `STOMP WebSockets`
 
-**🟨 `LEGENDARY` · [kairvex-platform](https://github.com/Kairvex-Eco-System/kairvex-platform)** — the control center: UI modules, microservices, infra provisioning & multi-agent pipelines in one hub
+### 2. [Software-Team-MAS (Multi-Agent Systems)](https://github.com/Harshabobbiti626/Software-Team-MAS-Multi-Agent-Systems)
+> **Autonomous Multi-Agent Software Engineering Framework**
+- **Architecture**: Enterprise multi-agent framework mirroring a full engineering org with contract-first parallel pods (Architect, Coder, Tester, Reviewer).
+- **Execution & State**: Powered by LangGraph DAG orchestration, 4-tier memory hierarchy, Git blackboard for shared state, OpenTelemetry distributed tracing, and automated Root-Cause Analysis (RCA) with a live Mission Control dashboard.
+- **Stack**: `Python` · `LangGraph` · `OpenTelemetry` · `DAG Orchestration` · `Multi-Agent Systems`
 
-**🟪 `ELITE` · [kairvex-microservices](https://github.com/Kairvex-Eco-System/kairvex-microservices)** — DDD-bounded backend engine · Spring Cloud Gateway routing · transactional JWT parsing · `Java 17 · Spring Data JPA`
+### 3. [Tech-Sovereignty-Graph](https://github.com/Harshabobbiti626/Tech-Sovereignty-Graph)
+> **Enterprise Identity Governance & Toxic Permission Detection Engine**
+- **Architecture**: Graph-powered security application mapping complex identity access paths, nested group inheritances, and resource dependencies.
+- **Security Intelligence**: Detects hidden Shadow IT vulnerabilities, calculates blast radiuses, and flags toxic permission escalation chains in real time.
+- **Stack**: `Java` · `Spring Boot` · `Graph Algorithms` · `Neo4j / Relational Graph` · `REST API`
 
-**🟪 `ELITE` · [kairvex-agentic-systems](https://github.com/Kairvex-Eco-System/kairvex-agentic-systems)** — autonomous intelligence layer: multi-agent orchestration, static test generation, structural RCA loops · `LangGraph · CrewAI · OpenAI tool calling`
+### 4. [Autonomous-Customer-Support-Agent](https://github.com/Harshabobbiti626/Autonomous-Customer-Support-Agent)
+> **Stateful Enterprise AI Customer Support Agent with HITL**
+- **Architecture**: Stateful AI agent built with LangGraph featuring parameterized tool execution and deterministic safety guardrails.
+- **Safety**: Integrates Human-in-the-Loop (HITL) supervisor breakpoints for high-consequence customer transactions and session state persistence.
+- **Stack**: `Python` · `LangGraph` · `Tool Calling` · `HITL Guardrails` · `Pydantic`
 
-**🟦 `RARE` · [kairvex-cloud](https://github.com/Kairvex-Eco-System/kairvex-cloud)** — infra as code: private networks, Azure Container Registry, AKS clusters · `Terraform`
+### 5. [Self-Healing-RAG-Knowledge-Base](https://github.com/Harshabobbiti626/Self-Healing-RAG-Knowledge-Base)
+> **Dual-Loop Self-Healing Retrieval-Augmented Generation (RAG)**
+- **Architecture**: Closed dual-loop RAG architecture combining Fast-Loop query correction (Corrective RAG, HyDE query expansion, NLI Grounding Guard) with Slow-Loop autonomous knowledge base repair, contradiction auditing, and index curation.
+- **Stack**: `Python` · `CRAG` · `HyDE` · `Vector Embeddings` · `NLI Grounding Guard`
 
-**🟦 `RARE` · [kairvex-delivery](https://github.com/Kairvex-Eco-System/kairvex-delivery)** — the CI/CD engine: security scans, SonarQube & image-scan gates, blue-green + canary rollouts · `Jenkins · GitHub Actions`
+### 6. [Cloud-Native-Metrics-Monitoring-Pipeline](https://github.com/Harshabobbiti626/Cloud-Native-Metrics-Monitoring-Pipeline)
+> **High-Throughput Metric Ingestion Engine**
+- **Architecture**: High-throughput Java ingestion engine utilizing the Streams API and thread-safe concurrency models to parse and aggregate server performance metrics.
+- **Quality**: Enforces automated SonarQube and Checkstyle quality gates; containerized with Docker.
+- **Stack**: `Java` · `Streams API` · `Multithreading` · `SonarQube` · `Docker`
 
-**🟦 `RARE` · [kairvex-frontend](https://github.com/Kairvex-Eco-System/kairvex-frontend)** — enterprise shell: feature apps composed at atomic boundaries, no UI monolith · `React · TS · Module Federation`
-
-#### ◈ Side Quests
-
-**◇ [kairvex-data](https://github.com/Kairvex-Eco-System/kairvex-data)** polyglot persistence — PostgreSQL · Redis · MongoDB · Neo4j blast-radius
-**◇ [kairvex-event-systems](https://github.com/Kairvex-Eco-System/kairvex-event-systems)** Kafka loops · transactional Outbox · idempotent consumers
-**◇ [kairvex-resilience](https://github.com/Kairvex-Eco-System/kairvex-resilience)** chaos testbench — Resilience4j breakers · bulkheads · rate limits
-**◇ [kairvex-mlops](https://github.com/Kairvex-Eco-System/kairvex-mlops)** release-risk prediction · registries · drift-retraining jobs
-**◇ [kairvex-labs](https://github.com/Kairvex-Eco-System/kairvex-labs)** the sandbox — PoCs before production promotion
+### 7. [Redis-Backed-URL-Shortener-Service](https://github.com/Harshabobbiti626/Redis-Backed-URL-Shortener-Service)
+> **High-Performance Caching & Routing Microservice**
+- **Architecture**: Containerized Spring Boot URL routing engine using Redis cache-aside caching to eliminate database read bottlenecks under high concurrency.
+- **Stack**: `Java` · `Spring Boot` · `Redis` · `PostgreSQL` · `Docker`
 
 ---
 
-## ◆ The Skill Tree
+## 🛠️ Technical Arsenal
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,nodejs,py,ts,react,postgres,mysql,redis,mongodb,kafka&perline=11" alt="engineering · data · events" />
-<br/><sub><i>tier 1 — main tree</i></sub>
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=terraform,azure,docker,kubernetes,jenkins,githubactions,aws,git,linux,postman,jest&perline=11" alt="cloud · platform · delivery" />
-<br/><sub><i>tier 2 — infrastructure branch</i></sub>
+<img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,redis,mongodb,kafka,nodejs,py,ts,react&perline=11" alt="Languages · Frameworks · Databases" />
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,githubactions,terraform,azure,aws,linux,git,postman,jest&perline=11" alt="Cloud · DevOps · Infrastructure · Testing" />
 
 </div>
 
-<details>
-<summary><b>◈ Full Attribute Sheet</b></summary>
 <br/>
 
-| Attribute | Allocation |
+| Domain | Technologies & Methodologies |
 | :--- | :--- |
-| **Backend & Core** | Core Java, Spring Boot, Spring Data JPA, Hibernate, Node.js (Express), Microservices, REST APIs |
-| **Frontend** | ReactJS, TypeScript, Module Federation, Context API, Redux Toolkit, Hooks |
-| **Data & Caching** | PostgreSQL, MySQL, indexing & RDBMS optimization, Redis, pgvector, Neo4j, MongoDB |
-| **Cloud & DevOps** | Docker, Kubernetes (CKAD), Azure AKS, Terraform, Jenkins, Maven, GitHub Actions, AWS |
-| **Quality** | SonarQube gates, JUnit 5, Mockito, Jest, Vitest, Playwright E2E, Selenium |
-| **AI & Agents** | LangGraph, CrewAI, OpenAI tool calling, vector embeddings, Azure AI Foundry |
-
-</details>
+| **Backend & Microservices** | Java 17/21, Spring Boot 3, Spring Data JPA, Hibernate, Node.js (Express), RESTful APIs, Microservices Architecture, Transactional Outbox Pattern |
+| **Cloud & DevOps** | Docker, Kubernetes (CKAD-Track), Azure (AKS), AWS, Terraform, Jenkins, Maven, GitHub Actions, Linux |
+| **Databases & Caching** | PostgreSQL, MySQL, Redis, MongoDB, Neo4j, pgvector, RDBMS Query & Index Optimization |
+| **AI & Agentic Systems** | LangGraph, CrewAI, Function / Tool Calling, Multi-Agent Orchestration, Corrective RAG (CRAG), HyDE, Vector Embeddings |
+| **Frontend & UI** | React 19, TypeScript, Context API, Redux Toolkit, Atomic Design, Tailwind CSS, STOMP WebSockets |
+| **Quality & Observability** | JUnit 5, Mockito, SonarQube, OpenTelemetry, Jest, Vitest, Playwright E2E, Checkstyle |
 
 ---
 
-## ◆ High Scores
+## 📊 Engineering Telemetry
 
 <div align="center">
-  <sub><i>career telemetry — live from the GitHub servers</i></sub>
-  <br/><br/>
-  <img height="150" alt="stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Harshabobbiti626&theme=github_dark" />
-  <img height="150" alt="streak" src="https://streak-stats.demolab.com?user=Harshabobbiti626&hide_border=true&background=00000000&currStreakNum=E6EDF3&sideNums=C9D1D9&currStreakLabel=3DDAD7&sideLabels=8A7CFF&dates=75849B" />
-  <br/><br/>
-  <sub><i>the trophy room — contributions as a 3D skyline, rebuilt nightly</i></sub>
-  <br/><br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
-    <img alt="3D contribution skyline" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
-  </picture>
-</div>
 
----
+<img height="150" alt="GitHub Stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Harshabobbiti626&theme=github_dark" />
+<img height="150" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=Harshabobbiti626&hide_border=true&background=00000000&currStreakNum=E6EDF3&sideNums=C9D1D9&currStreakLabel=3DDAD7&sideLabels=8A7CFF&dates=75849B" />
 
-## ◆ Easter Eggs
-
-<div align="center">
-<sub><i>hidden rooms — no map markers, just curiosity</i></sub>
 <br/><br/>
 
-<details>
-<summary><b>☕ the dev desk</b></summary>
-<br/>
-<img src="./assets/desk.svg" width="72%" alt="Dev desk — self-typing code, steaming coffee, sleeping cat" />
-<br/><sub><i>compiling… the cat is supervising. coffee refills after this build.</i></sub>
-</details>
+<sub><b>3D CONTRIBUTION SKYLINE</b> — Automated nightly build via GitHub Actions</sub>
 
-<details>
-<summary><b>🛸 the night orbit</b></summary>
-<br/>
-<img src="./assets/orbit.svg" width="72%" alt="Astronaut waving beside a cratered planet with an orbiting cube" />
-<br/><sub><i>shipping to production takes a little space.</i></sub>
-</details>
+<br/><br/>
 
-<details>
-<summary><b>💎 the loot crystal</b></summary>
-<br/>
-<img src="./assets/crystal.svg" width="72%" alt="Floating loot crystal with orbiting shards and a shine sweep" />
-<br/><sub><i>drop rate: 100% for visitors who scroll this far.</i></sub>
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
+  <img alt="3D contribution skyline" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+</picture>
 
 </div>
 
 <img width="100%" alt="" src="./assets/hud-divider.svg" />
 
-## ◆ Join the Party
+## 📬 Connect & Collaborate
 
 <div align="center">
 
-**The next quest has an open party slot.**
+**Open to discussions around backend microservices, distributed architectures, and agentic AI systems.**
 
-` 📧 ` **[Email](mailto:harshabobbiti626@gmail.com)** · ` 🐺 ` **[LinkedIn](https://www.linkedin.com/in/harsha-rdy626/)** · ` ✦ ` **[Portfolio](https://portofolio-iota-drab-61.vercel.app/)**
+<br/>
 
-<sub>Bengaluru, Karnataka · India</sub>
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://portofolio-iota-drab-61.vercel.app/)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsha-rdy626/)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshabobbiti626@gmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harshabobbiti626)
 
-</div>
+<br/>
 
----
+<sub>📍 Bengaluru, Karnataka · India</sub>
 
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Harshabobbiti626&style=flat-square&color=0A0E17&label=PLAYERS+ENTERED" alt="profile views" />
+<br/><br/>
 
 <img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=wave&section=footer&height=90&color=0:8A7CFF,50:5EA2FF,100:3DDAD7" />
 
