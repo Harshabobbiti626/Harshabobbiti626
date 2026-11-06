@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070A12"/>
+      <stop offset="50%" stop-color="#0D1322"/>
+      <stop offset="100%" stop-color="#080D18"/>
+    </linearGradient>
+
+    <!-- Text Neon Gradient -->
+    <linearGradient id="textGrad" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A594FF"/>
+      <stop offset="45%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGlow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8A7CFF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Accent Radial Glow -->
+    <radialGradient id="radialCyan" cx="0.85" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radialPurple" cx="0.15" cy="0.7" r="0.6">
+      <stop offset="0%" stop-color="#8A7CFF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8A7CFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38BDF8" stroke-opacity="0.04" stroke-width="1"/>
+      <circle cx="30" cy="30" r="0.8" fill="#38BDF8" fill-opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.75; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+    @keyframes floatOrb {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes blinkDot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .neon-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', 'Helvetica Neue', sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+      letter-spacing: 3px;
+    }
+    .sub-title {
+      font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+      font-weight: 600;
+      font-size: 14.5px;
+      letter-spacing: 2px;
+      fill: #94A3B8;
+    }
+    .pill-text {
+      font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+      font-weight: 600;
+      font-size: 11.5px;
+      letter-spacing: 1px;
+    }
+    .status-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      fill: #34D399;
+    }
+    .dot-live { animation: blinkDot 2s ease-in-out infinite; }
+  </style>
+
+  <!-- Base Plate -->
+  <rect x="2" y="2" width="1196" height="256" rx="16" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="1196" height="256" rx="16" fill="url(#grid)"/>
+
+  <!-- Radial Atmosphere -->
+  <rect x="2" y="2" width="1196" height="256" rx="16" fill="url(#radialPurple)"/>
+  <rect x="2" y="2" width="1196" height="256" rx="16" fill="url(#radialCyan)"/>
+
+  <!-- Glowing Top Border Strip -->
+  <rect x="2" y="2" width="1196" height="3" rx="1.5" fill="url(#borderGlow)"/>
+  <rect x="2" y="255" width="1196" height="3" rx="1.5" fill="url(#borderGlow)" opacity="0.3"/>
+
+  <!-- Decorative Tech Graphic (Right Side Circuit / Hex-Node) -->
+  <g transform="translate(1010, 130)">
+    <!-- Outer Rings -->
+    <circle cx="0" cy="0" r="76" stroke="#8A7CFF" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="4 8"/>
+    <circle cx="0" cy="0" r="62" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.2" stroke-dasharray="40 10 5 10"/>
+    <circle cx="0" cy="0" r="46" stroke="#2DD4BF" stroke-opacity="0.25" stroke-width="1"/>
+
+    <!-- Geometric Hexagon Core -->
+    <polygon points="0,-32 28,-16 28,16 0,32 -28,16 -28,-16" fill="#131F37" stroke="url(#borderGlow)" stroke-width="2"/>
+    <polygon points="0,-18 16,-9 16,9 0,18 -16,9 -16,-9" fill="url(#textGrad)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+
+    <!-- Orbital Nodes -->
+    <circle cx="62" cy="0" r="3.5" fill="#38BDF8"/>
+    <circle cx="-44" cy="-44" r="3" fill="#8A7CFF"/>
+    <circle cx="-32" cy="54" r="3" fill="#2DD4BF"/>
+    <line x1="28" y1="16" x2="62" y2="0" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1"/>
+    <line x1="-28" y1="-16" x2="-44" y2="-44" stroke="#8A7CFF" stroke-opacity="0.5" stroke-width="1"/>
+  </g>
+
+  <!-- Status Badge (Top-Left) -->
+  <g transform="translate(56, 44)">
+    <rect x="0" y="0" width="275" height="28" rx="14" fill="#0D2026" stroke="#14B8A6" stroke-opacity="0.4" stroke-width="1"/>
+    <circle class="dot-live" cx="16" cy="14" r="4.5" fill="#34D399"/>
+    <text class="status-text" x="28" y="18.5">AVAILABLE FOR HIRE &amp; IMPACT</text>
+    <text class="status-text" x="228" y="18.5" fill="#94A3B8">· BENGALURU</text>
+  </g>
+
+  <!-- Main Identity Header -->
+  <text class="neon-title" x="54" y="118" fill="url(#textGrad)">HARSHAVARDHAN REDDY BOBBITI</text>
+
+  <!-- Subtitle / Architecture Role -->
+  <text class="sub-title" x="56" y="152">SOFTWARE ENGINEER · JAVA MICROSERVICES · DISTRIBUTED &amp; AI SYSTEMS</text>
+
+  <!-- Tech Capsule Pills (Bottom Row) -->
+  <g transform="translate(56, 182)">
+    <!-- Pill 1: Java 21 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="86" height="26" rx="6" fill="#131D33" stroke="#8A7CFF" stroke-opacity="0.4" stroke-width="1"/>
+      <text class="pill-text" x="12" y="17.5" fill="#C4B5FD">JAVA 21</text>
+    </g>
+    <!-- Pill 2: Spring Boot 3 -->
+    <g transform="translate(96, 0)">
+      <rect x="0" y="0" width="134" height="26" rx="6" fill="#11222C" stroke="#2DD4BF" stroke-opacity="0.4" stroke-width="1"/>
+      <text class="pill-text" x="12" y="17.5" fill="#5EEAD4">SPRING BOOT 3</text>
+    </g>
+    <!-- Pill 3: Kubernetes -->
+    <g transform="translate(240, 0)">
+      <rect x="0" y="0" width="124" height="26" rx="6" fill="#0E2238" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
+      <text class="pill-text" x="12" y="17.5" fill="#7DD3FC">KUBERNETES</text>
+    </g>
+    <!-- Pill 4: LangGraph -->
+    <g transform="translate(374, 0)">
+      <rect x="0" y="0" width="168" height="26" rx="6" fill="#1E1A38" stroke="#A78BFA" stroke-opacity="0.4" stroke-width="1"/>
+      <text class="pill-text" x="12" y="17.5" fill="#DDD6FE">LANGGRAPH · AI</text>
+    </g>
+    <!-- Pill 5: Kafka & Outbox -->
+    <g transform="translate(552, 0)">
+      <rect x="0" y="0" width="180" height="26" rx="6" fill="#141E2E" stroke="#60A5FA" stroke-opacity="0.4" stroke-width="1"/>
+      <text class="pill-text" x="12" y="17.5" fill="#93C5FD">EVENT ARCHITECTURE</text>
+    </g>
+    <!-- Pill 6: React & TS -->
+    <g transform="translate(742, 0)">
+      <rect x="0" y="0" width="116" height="26" rx="6" fill="#0F242C" stroke="#34D399" stroke-opacity="0.4" stroke-width="1"/>
+      <text class="pill-text" x="12" y="17.5" fill="#6EE7B7">REACT · TS</text>
+    </g>
+  </g>
+</svg>
